@@ -1,4 +1,4 @@
-# Creating the app UI
+# PART 1 - Creating the app UI
 
 ## App skeleton
 
@@ -6,19 +6,19 @@ The Python Shiny app UI design process is highly similar to R. The basic app
 skeleton looks like this:
 
 ```python
-from shiny import ui, App
+from shiny import App, ui, reactive, render
 
 app_ui = ui.page_fluid(
 )
 
-def server(Inputs, Outputs, Session):
+def server(input, ouput, session):
     pass
 
 app = App(app_ui, server)
 ```
 
 _Note that the UI variable is called `app_ui` and not `ui` as this is an
-imported Shiny object we need to access UI functions later_
+imported Shiny object we need to access UI objects_
 
 ## What you can directly transfer from R Shiny
 
@@ -69,3 +69,32 @@ app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), 
 
 _Note that similarly to R, you do not put the static assets folder name in the
 path name when sourcing in data_
+
+### Inputs
+
+All default Shiny inputs in Python are organised under `ui.input_<name>`. The
+names are identical to those used in R, only with the _input_ part first and
+separated by underscores instead of using camel case.
+
+| Input    | R code            | Python code                |
+| -------- | ----------------- | -------------------------- |
+| Slider   | `sliderInput()`   | `ui.input_slider()`        |
+| Button   | `actionButton()`  | `ui.input_action_button()` |
+| Number   | `numericInput()`  | `ui.input_numeric()`       |
+| Text     | `textInput()`     | `ui.input_text()`          |
+| Checkbox | `checkboxInput()` | `ui.input_checkbox()`      |
+| ...      | ...               | ...                        |
+
+The **arguments** inside the input functions are **identical to R** (e.g.
+inputId, label, etc)
+
+### Outputs
+
+All outputs are organised under `ui.output_<name>`
+
+| Output | R code          | Python Code         |
+| ------ | --------------- | ------------------- |
+| Text   | `textOutput()`  | `ui.output_text()`  |
+| Table  | `tableOutput()` | `ui.output_table()` |
+| Plot   | `plotOutput`    | `ui.output_plot()`  |
+| UI     | `uiOutput()`    | `ui.output_ui()`    |
