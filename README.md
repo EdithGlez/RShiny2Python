@@ -74,18 +74,36 @@ you already have RStudio installed and do not want to install anything else.
 2. Install the reticulate package `install.packages("reticulate")`
 3. Set the Python interpreter: Tools --> Global Options --> Python
 
+#### Shinylive
+
+In case of any issues in setting up a local IDE on your computer, shinylive can
+be used where possible to complete exercises in the browser.
+
+1. Open the [Shinylive](https://shinylive.io/py/editor) online editor
+2. Copy any Shiny exercise code form this repo and paste it in the editor
+3. Run the app tot test it
+4. Skip Step 3 below as this is only needed on local machines
+
+_Note that not all exercises might work given not all python packages / data are
+available_
+
 ### Step 3 - Install and Test Python Shiny
 
 Run the following command in the terminal to install Shiny for Python
+
 ```sh
 pip install shiny
 ```
+
 _Note: If you are using RStudio, make sure to use the Terminal and not Console_
 
-You can now try and run the [test_app.py](./test_app.py) file. 
-- If you are using **Positron or VS Code** can click the **Run button** located on the top-right of the file
-- If you are using **RStudio** or would like to **Start the app from the Terminal** 
-you run the following command
+You can now try and run the [test_app.py](./test_app.py) file.
+
+- If you are using **Positron or VS Code** can click the **Run button** located
+  on the top-right of the file
+- If you are using **RStudio** or would like to **Start the app from the
+  Terminal** you run the following command
+
 ```sh
 shiny run --reload --launch-browser test_app.py
 ```
