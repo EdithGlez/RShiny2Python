@@ -1,5 +1,5 @@
-# PART 1 - Exercise 2 - Solution
-# //////////////////////////////
+# PART 1 - Exercise 2
+# ///////////////////
 
 # Create an app with two tabs (see exercise2_screenshot.png for expected layout)
 # TAB 1:
@@ -11,9 +11,8 @@
 
 from shiny import App, ui
 
-app_ui = ui.page_fluid(
-    
-)
+app_ui = ui.page_fluid()
+
 
 # Ignore for now
 def server(input, ouput, session):
