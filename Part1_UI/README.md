@@ -26,16 +26,18 @@ imported Shiny object we need to access UI objects_
 
 The following UI elements have a direct Python Shiny equivalent
 
-| UI element       | R code            | Python Code           |
-| ---------------- | ----------------- | --------------------- |
-| Fluid Page       | `fluidPage()`     | `ui.page_fluid()`     |
-| Row              | `fluidRow()`      | `ui.row()`            |
-| Column           | `column()`        | `ui.column()`         |
-| Tabset           | `tabsetPanel()`   | `ui.navset_tab()`     |
-| - tab panel      | `tabPanel()`      | `ui.nav_panel()`      |
-| Side bar         | `sidebarLayout()` | `ui.layout_sidebar()` |
-| - side bar panel | `sidebarPanel()`  | `ui.panel_sidebar()`  |
-| - main panel     | `mainPanel()`     | `ui.panel_main()`     |
+| UI element       | R code            | Python Code            |
+| ---------------- | ----------------- | ---------------------- |
+| Fluid Page       | `fluidPage()`     | `ui.page_fluid()`      |
+| Row              | `fluidRow()`      | `ui.row()`             |
+| Column           | `column()`        | `ui.column()`          |
+| Tabset           | `tabsetPanel()`   | `ui.navset_tab()`      |
+| - tab panel      | `tabPanel()`      | `ui.nav_panel()`       |
+| Side bar         | `sidebarLayout()` | `ui.layout_sidebar()`* |
+| - side bar panel | `sidebarPanel()`  | `ui.sidebar()`         |
+| - main panel     | `mainPanel()`     | _not needed_           |
+
+\* note that you can also use `ui.page_sidebar` if this is the main layout
 
 _There are many more UI elements available, all under the `ui` object_
 
@@ -98,3 +100,8 @@ All outputs are organised under `ui.output_<name>`
 | Table  | `tableOutput()` | `ui.output_table()` |
 | Plot   | `plotOutput`    | `ui.output_plot()`  |
 | UI     | `uiOutput()`    | `ui.output_ui()`    |
+
+## References
+
+- [Layouts](https://shiny.posit.co/py/layouts/)
+- [Inputs, outputs and other components](https://shiny.posit.co/py/components/)

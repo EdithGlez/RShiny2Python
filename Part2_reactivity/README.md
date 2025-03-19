@@ -99,11 +99,12 @@ def sum():
 
 ## Reactive variables
 
-This is the Python equivalent to `reactiveVal()` in R
+`reactive.value()` is the Python equivalent to `reactiveVal()` in R
 
-- To **assign** a reactive variable use the `var = reactive.value()` function.
+- To **assign** a reactive variable use the
+  `var = reactive.value(<initialValue>)` function.
 - To **access** a reactive variable, use `var()` or `var.get()`
 - To **update** a reactive varaible, use `var.set(<newValue>)`
 
-_Note: there is no equivalent to `reactiveValues()`, as this can all be
-achieved with the same `reactive.value()` function_
+_Note: there is no equivalent to R's `reactiveValues()`, as this can all be
+achieved with the same `reactive.value()` function using a list or dictionary_
