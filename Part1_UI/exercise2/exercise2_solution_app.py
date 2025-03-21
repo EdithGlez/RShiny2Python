@@ -7,9 +7,10 @@
 #  - In the side panel: Group of checkboxes called "Features" with options A, B, C
 #  - In the main panel: Card with header "Info" and content paragraph "... some info ..."
 # TAB 2:
-#  - Table output (will be empty given no server yet)
+#  - Shows the image found in the www folder
 
 from shiny import App, ui
+import os
 
 app_ui = ui.page_fluid(
     ui.navset_tab(
@@ -23,7 +24,7 @@ app_ui = ui.page_fluid(
                 ui.card(ui.card_header("Info"), ui.p("... some info ...")),
             ),
         ),
-        ui.nav_panel("Tab 2", ui.output_table("tbl")),
+        ui.nav_panel("Tab 2", ui.img(src="image.png")),
     )
 )
 
@@ -33,4 +34,4 @@ def server(input, ouput, session):
     pass
 
 
-app = App(app_ui, server)
+app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), "www"))
