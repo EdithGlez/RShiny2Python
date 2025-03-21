@@ -6,6 +6,7 @@ colours = ["red", "blue", "green", "yellow", "white", "black"]
 guess = ["white", "red", "green", "blue"]
 solution = random.choices(colours, k=4)
 
+
 def check_guess(guess, solution):
     correctCol = 0
     colourAndPos = 0
@@ -33,6 +34,7 @@ def check_guess(guess, solution):
         "colourAndPos": colourAndPos,
         "feedback": feedback,
     }
+
 
 result = check_guess(guess, solution)
 

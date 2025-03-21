@@ -57,6 +57,7 @@ def txt():
 - The **decorator** defines what type of output is being created (see table)
 - Similar to R, the value returned by the function must be compatible with the
   render type (e.g. in the example, this is text)
+- Make sure to use the `return` keywords or the output won't be rendered
 
 ## Other Reactive Environments
 
