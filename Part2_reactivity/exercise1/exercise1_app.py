@@ -1,3 +1,6 @@
+# PART 2 - Exercise 2
+# ///////////////////
+
 import requests
 import pandas as pd
 from io import StringIO
@@ -38,7 +41,6 @@ app_ui = ui.page_fluid(
 
 # SERVER
 def server(input, ouput, session):
-    pass  # you can remove this once you add functions
-
+    pass # you can remove this once you add functions
 
 app = App(app_ui, server)
