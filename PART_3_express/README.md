@@ -17,7 +17,7 @@ of this workshop outside of this module focusses on.
 
 ## Express Syntax differences with Core
 
-### General
+### Setup
 
 Unlike in Core, Shiny Express does not have a dedicated organisation of UI and
 server in separate functions, but rather makes use of decorators and context
@@ -27,9 +27,16 @@ mixed allowing a more fluid organisation of your code.
 Note that you **import objects from `shiny.express` instead of `shiny`**
 
 ```python
-from shiny.express import input, render, ui
+from shiny.express import input, render, ui, app_opts
 ```
 
+- There is no need to use the `App` function at the end of the page as you would
+  with the Core framework
+- If you want to set app options like static assets, you can use `app_opts`
+
+```python
+app_opts(static_assets=os.path.dirname(__file__), "myFolder"))
+```
 ### Layout + inputs
 
 Given there is **no dedicated UI** function. Layout is organised using **context
