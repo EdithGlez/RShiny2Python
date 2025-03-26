@@ -11,7 +11,8 @@ Create an app with two tabs
   - In the main panel: Card with header "Info" and content paragraph "... some
     info ..."
 - TAB 2:
-  - Shows the [image](www/image.png) located in the `www` folder
+  - Shows the [image](www/image.png) located in the `www` folder (_scroll down
+    to see what to do if you are using shinylive_)
 
 ## Expected output
 
@@ -20,3 +21,9 @@ Create an app with two tabs
 ## References
 
 - [layouts](https://shiny.posit.co/py/layouts/)
+
+#### _if you are using Shinylive_
+
+You cant access images from your local machine in Shinylive, so use the
+following URL instead:
+https://pieterjanvc.github.io/RShiny2Python/assets/image.png
