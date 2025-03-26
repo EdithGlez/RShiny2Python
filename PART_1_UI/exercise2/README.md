@@ -26,4 +26,4 @@ Create an app with two tabs
 
 You cant access images from your local machine in Shinylive, so use the
 following URL instead:
-https://raw.githubusercontent.com/pieterjanvc/RShiny2Python/refs/heads/express/PART_1_UI/exercise2/www/image.png?token=GHSAT0AAAAAAC5CPGY7SAWSYWCWDVDYY3MWZ7DEVTQ
+https://pieterjanvc.github.io/RShiny2Python/assets/image.png

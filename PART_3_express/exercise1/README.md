@@ -27,9 +27,6 @@ Use Shiny express to create this site with 3 tabs (navset_card_tab)
 You cant access images from your local machine in Shinylive, so use the
 following URLs instead:
 
-- Young:
-  https://raw.githubusercontent.com/pieterjanvc/RShiny2Python/refs/heads/express/PART_3_express/exercise1/www/young.png?token=GHSAT0AAAAAAC5CPGY6HNSCXUHVFEFEWYHOZ7DERHQ
-- Adult:
-  https://raw.githubusercontent.com/pieterjanvc/RShiny2Python/refs/heads/express/PART_3_express/exercise1/www/adult.png?token=GHSAT0AAAAAAC5CPGY7Y3VCWVU4KIGP3XKYZ7DEQAQ
-- Old:
-  https://raw.githubusercontent.com/pieterjanvc/RShiny2Python/refs/heads/express/PART_3_express/exercise1/www/old.png?token=GHSAT0AAAAAAC5CPGY7HQE5PJSC6W5UFWCWZ7DEQ2A
+- Young: https://pieterjanvc.github.io/RShiny2Python/assets/young.png
+- Adult: https://pieterjanvc.github.io/RShiny2Python/assets/adult.png
+- Old: https://pieterjanvc.github.io/RShiny2Python/assets/old.png
