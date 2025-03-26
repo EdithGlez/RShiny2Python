@@ -1,4 +1,4 @@
 # R Shiny to Python
 Workshop Repository
 
-![old](assets/adult.png)
+![adult](https://pieterjanvc.github.io/RShiny2Python/assets/adult.png)
