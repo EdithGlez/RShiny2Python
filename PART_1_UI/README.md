@@ -26,16 +26,16 @@ imported Shiny object we need to access UI objects_
 
 The following UI elements have a direct Python Shiny equivalent
 
-| UI element       | R code            | Python Code            |
-| ---------------- | ----------------- | ---------------------- |
-| Fluid Page       | `fluidPage()`     | `ui.page_fluid()`      |
-| Row              | `fluidRow()`      | `ui.row()`             |
-| Column           | `column()`        | `ui.column()`          |
-| Tabset           | `tabsetPanel()`   | `ui.navset_tab()`      |
-| - tab panel      | `tabPanel()`      | `ui.nav_panel()`       |
-| Side bar         | `sidebarLayout()` | `ui.layout_sidebar()`* |
-| - side bar panel | `sidebarPanel()`  | `ui.sidebar()`         |
-| - main panel     | `mainPanel()`     | _not needed_           |
+| UI element       | R code            | Python Code             |
+| ---------------- | ----------------- | ----------------------- |
+| Fluid Page       | `fluidPage()`     | `ui.page_fluid()`       |
+| Row              | `fluidRow()`      | `ui.row()`              |
+| Column           | `column()`        | `ui.column()`           |
+| Tabset           | `tabsetPanel()`   | `ui.navset_tab()`       |
+| - tab panel      | `tabPanel()`      | `ui.nav_panel()`        |
+| Side bar         | `sidebarLayout()` | `ui.layout_sidebar()`\* |
+| - side bar panel | `sidebarPanel()`  | `ui.sidebar()`          |
+| - main panel     | `mainPanel()`     | _not needed_            |
 
 \* note that you can also use `ui.page_sidebar` if this is the main layout
 
@@ -89,6 +89,9 @@ separated by underscores instead of using camel case.
 
 The **arguments** inside the input functions are **identical to R** (e.g.
 inputId, label, etc)
+
+_NOTE: similar to R, every `ui.input_<element>` has a corresponding
+`ui.update_<element>` function to dynamically update the input*
 
 ### Outputs
 

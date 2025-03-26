@@ -1,4 +1,4 @@
-# PART 3 - Exercise 1 - Solution
+# PART 3 - Exercise 2 - Solution
 # //////////////////////////////
 import os
 from shiny.express import input, render, ui, app_opts
