@@ -1,10 +1,12 @@
-# PART 2 - Exercise 1 - Solution
-# //////////////////////////////
+# PART 2 - Exercise 2
+# ///////////////////
 
 import requests
 import pandas as pd
 from io import StringIO
 from shiny import App, ui, render
+
+# See README.md for instructions
 
 # Get the data and process it
 url = "https://data.opendatasoft.com/api/explore/v2.1/catalog/datasets/cats-in-movies@public/exports/csv"
@@ -40,17 +42,14 @@ app_ui = ui.page_fluid(
 # SERVER
 def server(input, ouput, session):
     
-    @render.ui
-    def img():
-        return ui.img(src=data[data["title"] == input.movie()]["url_poster"].values[0])
+    # Get the image URL from the data frame
+    data[data["title"] == "Alien"]["url_poster"].values[0]
 
-    @render.data_frame
-    def tbl():
-        table = data[
-            (data["year"] >= input.era()[0]) & (data["year"] <= input.era()[1])
-        ]
-        table = table[["year", "title", "produced_by", "directed_by"]]
-        return table
+    # Filter the data frame by era (year range)
+    data[(data["year"] >= 1950) & (data["year"] <= 1960)]
+
+    # Select specific columns
+    data[["year", "title", "produced_by", "directed_by"]]
 
 
 app = App(app_ui, server)
