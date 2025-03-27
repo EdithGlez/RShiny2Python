@@ -1,8 +1,8 @@
 # PART 3 - Exercise 1
 # ///////////////////
 
-from shiny.express import input, render, ui, app_opts
-
+import os
+from shiny.express import input, render, ui, app_opts, expressify
 
 # Tab 1 - YOUNG
 # Image: "young.png" 
@@ -12,6 +12,7 @@ from shiny.express import input, render, ui, app_opts
 # Image: "adult.png"
 # Content: " ... what I aspired to ..."
 
-# Tab 3 - OLD
+#  --- ONLY NEEDED FOR PART 2 ---
+# Tab 3 - OLD 
 # Image: "old.png"
 # Content: "... what I have become"
