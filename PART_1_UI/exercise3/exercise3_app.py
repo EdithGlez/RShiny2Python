@@ -1,12 +1,12 @@
-# PART 1 - Exercise 2
-# ////////////////////
+# PART 1 - Exercise 3
+# ///////////////////
 
 from shiny import App, ui
 
 app_ui = ui.page_fluid()
 
 
-# You can ignore the sever function for this exercise
+# Ignore for now
 def server(input, ouput, session):
     pass
 
