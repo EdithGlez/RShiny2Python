@@ -7,12 +7,9 @@ import random
 from shiny import App, ui, render, reactive
 
 # Get the data and process it
-url = "https://raw.githubusercontent.com/david47k/top-english-wordlists/refs/heads/master/top_english_nouns_lower_10000.txt"
+url = "https://raw.githubusercontent.com/pkLazer/password_rank/refs/heads/master/4000-most-common-english-words-csv.csv"
 words = requests.get(url).text.splitlines()
-words = [word for word in words if len(word) == 5]
-
-# Select a random word every time the app reloads
-word = random.choice(words)
+words = [word for word in words if len(word) == 6]
 
 # UI
 app_ui = ui.page_fluid(
@@ -25,6 +22,9 @@ app_ui = ui.page_fluid(
 
 # SERVER
 def server(input, ouput, session):
+
+    # Select a random word every time the app reloads
+    word = random.choice(words)
     guesses = reactive.value([])
 
     @reactive.calc
@@ -41,16 +41,10 @@ def server(input, ouput, session):
         # Update the guessed letters reactive
         guesses.set(x)
 
-        return "".join([letter if letter in x else " - " for letter in list(word)])
+        return " ".join([letter if letter in x else " - " for letter in list(word)])
 
     @render.ui
-    def progress():
-        out = (
-            f"<h1>{result()}</h1><h3>YOU WON!</h3>"
-            if word == result()
-            else f"<h3>{result()}</h3>"
-        )
-        return ui.HTML(out)
-
+    def progress():        
+        return ui.h1(result(), style = "font-family: monospace; color: #BF408B;")
 
 app = App(app_ui, server)

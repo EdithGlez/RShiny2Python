@@ -2,28 +2,33 @@
 
 ## Intro
 
-This app allows you to explore famous movies throughout cinematic history that
-feature cats. The data is provided and UI has already been created. You should
-be able to complete this exercise by just using render functions.
+In this app you will implement a very simple version of the
+[hangman](<https://en.wikipedia.org/wiki/Hangman_(game)>) game. The data, UI and
+basic game code are provided.
+
+_You can test the game code by manually running it before making it reactive_
 
 ## Tasks
 
-1. Populate the `img` output with an image HTML tag that contains the movie
-   poster selected in the `movie` dropdown. The URL for each movie can be found
-   in the `url_poster` column of the data frame (so no local images needed)
+- When the user clicks the `guess` button, the game code should run using the
+  letter selected in the `letter` input and the `progress` output should update
+  with the result
 
-2. Render the data frame in the `tbl` output, only showing the "year", "title",
-   "produced_by", "directed_by" columns
+- You will need to keep track of all guessed letters, and remove them from the  
+  `letter` input after each guess
 
-3. Filter the data frame based on the year selection set by the `era` slider
+- When the user refreshes the page, the game will reset with a new random word
 
-_Some example python code has been provided demonstrating how to manipulate
-pandas data frames for this app as this is not the focus of this workshop_
+- To keep things simple, the result should only start appearing on the page once
+  the `guess` button has been clicked. If you want an extra challenge, try to 
+  make a blank result (i.e. all  `-`) appear when the game starts.
 
 ## Expected output
 
-![screenshot](exercise1_screenshot.png)
+_This image shows the output somewhere in the middle of the game_
+
+![screenshot](exercise2_screenshot.png)
 
 ## References
 
-- [render outputs](https://shiny.posit.co/py/components/#outputs)
+- [reactivity](https://shiny.posit.co/py/docs/reactive-foundations.html)
