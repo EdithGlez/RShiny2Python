@@ -2,28 +2,37 @@
 # //////////////////////////////
 
 from shiny import App, ui
-import os
 
 app_ui = ui.page_fluid(
-    ui.navset_tab(
-        ui.nav_panel(
-            "Tab 1",
-            ui.layout_sidebar(
-                ui.sidebar(
-                    ui.input_checkbox_group("cbx", "Features", choices=["A", "B", "C"]),
-                    title="Settings",
-                ),
-                ui.card(ui.card_header("Info"), ui.p("... some info ...")),
+    ui.h1("Python Shiny Survey"),
+    ui.row(
+        ui.column(
+            5,
+            ui.input_slider(
+                "exp",
+                "Experience from 0 (none) to 5 (expert)",
+                min=0,
+                max=5,
+                value=2,
             ),
+            ui.input_select(
+                "usage",
+                "I write Python Shiny apps ...",
+                choices=["Daily", "Weekly", "Monthly", "Yearly"],
+            ),
+            ui.hr(),
+            ui.input_checkbox("preference", "I prefer Python Shiny over R Shiny"),
+            ui.input_text_area("learn", "What would you like to learn more about?"),
         ),
-        ui.nav_panel("Tab 2", ui.img(src="image.png")),
-    )
+        ui.column(7, ui.output_plot("plt")),
+    ),
+    ui.input_action_button("submit", "Submit"),
 )
 
 
-# Ignore for now
+# You can ignore the sever function for this exercise
 def server(input, ouput, session):
     pass
 
 
-app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), "www"))
+app = App(app_ui, server)

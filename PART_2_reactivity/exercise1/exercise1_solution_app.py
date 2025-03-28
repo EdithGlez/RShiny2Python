@@ -1,4 +1,4 @@
-# PART 2 - Exercise 2 - Solution
+# PART 2 - Exercise 1 - Solution
 # //////////////////////////////
 
 import requests

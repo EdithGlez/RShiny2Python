@@ -1,4 +1,4 @@
-# PART 2 - Exercise 2
+# PART 2 - Exercise 1
 # ///////////////////
 
 import requests
@@ -41,6 +41,14 @@ app_ui = ui.page_fluid(
 
 # SERVER
 def server(input, ouput, session):
-    pass # you can remove this once you add functions
+    # Get the image URL from the data frame
+    data[data["title"] == "Alien"]["url_poster"].values[0]
+
+    # Filter the data frame by era (year range)
+    data[(data["year"] >= 1950) & (data["year"] <= 1960)]
+
+    # Select specific columns
+    data[["year", "title", "produced_by", "directed_by"]]
+
 
 app = App(app_ui, server)
