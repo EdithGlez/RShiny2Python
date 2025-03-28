@@ -7,14 +7,16 @@ from datetime import datetime
 from shiny import reactive
 from shiny.express import input, render, ui, app_opts
 
-data = pd.read_csv("https://data.nasa.gov/api/views/9kcy-zwvn/rows.csv?accessType=DOWNLOAD")
+data = pd.read_csv(
+    "https://data.nasa.gov/api/views/9kcy-zwvn/rows.csv?accessType=DOWNLOAD"
+)
 
 # Data cleaning
 data.columns = data.columns.str.replace(" ", "")
 data["Date"] = pd.to_datetime(data["Date"])
-data["Duration"] = pd.to_datetime(data["Duration"], format = "%H:%M")
+data["Duration"] = pd.to_datetime(data["Duration"], format="%H:%M")
 data["Duration"] = data["Duration"].dt.hour * 60 + data["Duration"].dt.minute
-data = data.drop(["EVA#", "Country"], axis = 1)
+data = data.drop(["EVA#", "Country"], axis=1)
 data = data.dropna()
 
 
@@ -26,8 +28,9 @@ vehicleTypes.sort()
 minDuration = 60
 
 # Filter based on vehicleType and minimum duration
-subset = data[(data["Duration"] >= minDuration) &
-    data["Vehicle"].str.contains(vehicleType[0])]
+subset = data[
+    (data["Duration"] >= minDuration) & data["Vehicle"].str.contains(vehicleType[0])
+]
 
 # Check the subset
 subset

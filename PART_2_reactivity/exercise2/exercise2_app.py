@@ -41,7 +41,6 @@ app_ui = ui.page_fluid(
 
 # SERVER
 def server(input, ouput, session):
-    
     # Get the image URL from the data frame
     data[data["title"] == "Alien"]["url_poster"].values[0]
 

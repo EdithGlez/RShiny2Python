@@ -39,7 +39,6 @@ app_ui = ui.page_fluid(
 
 # SERVER
 def server(input, ouput, session):
-    
     @render.ui
     def img():
         return ui.img(src=data[data["title"] == input.movie()]["url_poster"].values[0])
