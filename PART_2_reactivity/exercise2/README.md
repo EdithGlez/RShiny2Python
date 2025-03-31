@@ -29,6 +29,9 @@ _This image shows the output somewhere in the middle of the game_
 
 ![screenshot](exercise2_screenshot.png)
 
+## Shinylive Link
+https://pieterjanvc.github.io/RShiny2Python/shinylive/?part2_ex2
+
 ## References
 
 - [reactivity](https://shiny.posit.co/py/docs/reactive-foundations.html)

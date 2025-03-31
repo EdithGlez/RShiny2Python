@@ -21,6 +21,9 @@ _Note: If this is too basic for you, skip to exercise 2_
 
 ![screenshot](exercise1_screenshot.png)
 
+## Shinylive Link
+https://pieterjanvc.github.io/RShiny2Python/shinylive/?part1_ex1
+
 ## References
 
 - [components](https://shiny.posit.co/py/components/)

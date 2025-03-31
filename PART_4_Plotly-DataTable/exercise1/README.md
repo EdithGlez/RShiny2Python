@@ -36,16 +36,10 @@ _Note that the 3rd tab should only be there for PART 2_
 
 ![screenshot](exercise1_screenshot.png)
 
+## Shinylive Link
+https://pieterjanvc.github.io/RShiny2Python/shinylive/?part4_ex1
+
 ## References
 
 - [layouts](https://shiny.posit.co/py/layouts/)
 - [expressify](https://shiny.posit.co/py/api/express/express.expressify.html)
-
-#### _if you are using Shinylive_
-
-You cant access images from your local machine in Shinylive, so use the
-following URLs instead:
-
-- Young: https://pieterjanvc.github.io/RShiny2Python/assets/young.jpg
-- Adult: https://pieterjanvc.github.io/RShiny2Python/assets/adult.jpg
-- Old: https://pieterjanvc.github.io/RShiny2Python/assets/old.jpg
