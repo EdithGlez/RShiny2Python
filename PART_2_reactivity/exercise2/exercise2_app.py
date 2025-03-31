@@ -19,17 +19,17 @@ app_ui = ui.page_fluid(
     ui.input_action_button("guess", "Guess"),
 )
 
+
 # SERVER
 def server(input, ouput, session):
-    
-    # None-reactive Hangman game code 
+    # None-reactive Hangman game code
     word = random.choice(words)
     guesses = ["m"]
     guess = "e"
-    guesses.append(guess)    
+    guesses.append(guess)
     remaining = [l for l in list(string.ascii_lowercase) if l not in guesses]
     result = " ".join([letter if letter in guesses else " - " for letter in list(word)])
-    ui.h1(result, style = "font-family: monospace; color: #BF408B;")
+    ui.h1(result, style="font-family: monospace; color: #BF408B;")
 
 
 app = App(app_ui, server)

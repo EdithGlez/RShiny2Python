@@ -1,18 +1,48 @@
-# PART 3 - Exercise 1
+# PART 4 - Exercise 1
 # ///////////////////
 
-import os
-from shiny.express import input, render, ui, app_opts, expressify
+from shiny import App, ui, reactive, render, req
+import pandas as pd
+from datetime import datetime
 
-# Tab 1 - YOUNG
-# Image: "young.jpg"
-# Content: "How it all began ..."
+app_ui = ui.page_fluid(
+    ui.card(
+        ui.card_header("Create Task"),
+        ui.input_text("task", "Description", width="auto"),
+        ui.input_action_button("add", "Add task", width="150px"),
+    ),
+    ui.card(
+        ui.card_header("ToDo list"),
+        ui.output_data_frame("tbl"),
+        ui.input_action_button(
+            "completed", "Mark selected row as complete", width="300px"
+        ),
+    ),
+)
 
-# Tab 2 - ADULT
-# Image: "adult.jpg"
-# Content: " ... what I aspired to ..."
 
-#  --- ONLY NEEDED FOR PART 2 ---
-# Tab 3 - OLD
-# Image: "old.jpg"
-# Content: "... what I have become"
+def server(input, ouput, session):
+    #  Start with empty data frame
+    todos = reactive.value(pd.DataFrame())
+
+    # Render the todos in the table
+    @render.data_frame
+    def tbl():
+        return render.DataTable(todos(), selection_mode="row", width="100%")
+
+    # Add a new todo
+    @reactive.effect
+    @reactive.event(input.add)
+    def _():
+        req(input.task().strip())
+        newTask = pd.DataFrame(
+            {
+                "created": [datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
+                "task": [input.task()],
+                "completed": [None],
+            }
+        )
+        todos.set(pd.concat([todos(), newTask], ignore_index=True))
+   
+
+app = App(app_ui, server)
