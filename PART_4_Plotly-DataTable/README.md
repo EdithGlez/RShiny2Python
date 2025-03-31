@@ -64,6 +64,9 @@ plotly express is used in both the Core and Express version of Shiny.
 Plotly plots are widgets and Python Shiny comes with an additional library
 called `shinywidgets` to interact with them.
 
+_Note: This workshop is not focussing on creating Plotly plots, so all relevant 
+code will be provided_
+
 ## Basic plotly plot
 
 ```python

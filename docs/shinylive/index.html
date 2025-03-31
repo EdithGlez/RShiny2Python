@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <script>
+        const redirects = {
+            "blank": "https://shinylive.io/py/editor/#code=NobwRAdghgtgpmAXGKAHVA6VBPMAaMAYwHsIAXOcpMAYgAIBhACzkIGs7iBXMupssqgDOiAPSiA5gEsyTLgCMMJGKNRS4FAE4ArKBABuhUQCUAykykRsAJgAK2WaRpCLVgDZT9cADoR6dADNiTToYYLg6SyDOCD5iAHc6MmI6LiEIl0tsDy9A4KSWOnjgthdiVF8wAF88cGh4ak04AEcuKSb4ciEMMgAPMnwiUgoqZFQ9ABMoIV9UN2IyN2xKqoBdIA",
+            "xyz789": "https://www.example.com/another-long-url",
+            // Add more short URLs here with their long destinations
+        };
+
+        // Extract the short URL key from the path
+        const path = window.location.pathname.substring(1);
+
+        // Check if the short URL exists in the redirects object
+        if (redirects[path]) {
+            // If found, redirect to the long URL
+            window.location.replace(redirects[path]);
+        } else {
+            // If not found, show a message (optional)
+            document.body.innerHTML = "<h1>404 - Short URL not found</h1>";
+        }
+    </script>
+</head>
+<body>
+    <!-- This is where the page will redirect or show the 404 message -->
+</body>
+</html>
