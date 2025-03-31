@@ -11,7 +11,7 @@ Create an app with two tabs
   - In the main panel: Card with header "Info" and content paragraph "... some
     info ..."
 - TAB 2:
-  - Shows the [image](www/image.png) located in the `www` folder (_scroll down
+  - Shows the [image](www/image.jpg) located in the `www` folder (_scroll down
     to see what to do if you are using shinylive_)
 
 ## Expected output
@@ -27,7 +27,7 @@ Create an app with two tabs
 - Option 1 : Use the following URL instead of the file path -
   https://pieterjanvc.github.io/RShiny2Python/assets/image.png
 
-- Option 2: upload the `image.png` manually in the online app
+- Option 2: upload the `image.jpg` manually in the online app
 
 For more details, see the section on Shinylive in the main
 [README](../../README.md) file

@@ -46,6 +46,6 @@ _Note that the 3rd tab should only be there for PART 2_
 You cant access images from your local machine in Shinylive, so use the
 following URLs instead:
 
-- Young: https://pieterjanvc.github.io/RShiny2Python/assets/young.png
-- Adult: https://pieterjanvc.github.io/RShiny2Python/assets/adult.png
-- Old: https://pieterjanvc.github.io/RShiny2Python/assets/old.png
+- Young: https://pieterjanvc.github.io/RShiny2Python/assets/young.jpg
+- Adult: https://pieterjanvc.github.io/RShiny2Python/assets/adult.jpg
+- Old: https://pieterjanvc.github.io/RShiny2Python/assets/old.jpg

@@ -21,7 +21,6 @@ _Note: If this is too basic for you, skip to exercise 2_
 
 ![screenshot](exercise1_screenshot.png)
 
-
 ## References
 
 - [components](https://shiny.posit.co/py/components/)

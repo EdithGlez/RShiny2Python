@@ -26,19 +26,19 @@ with ui.navset_card_tab(id="tab"):
     with ui.nav_panel("YOUNG"):
         with ui.layout_columns(col_widths=[3, 9]):
             with ui.card():
-                ui.img(src="young.png")
+                ui.img(src="young.jpg")
             with ui.card():
                 ui.p("How it all began ...")
     # Tab 2
     with ui.nav_panel("ADULT"):
         with ui.layout_columns(col_widths=[3, 9]):
             with ui.card():
-                ui.img(src="adult.png")
+                ui.img(src="adult.jpg")
             with ui.card():
                 ui.p("How it all began ...")
     # ---
 
     # PART 2 ...
     # Tab 3
-    myTab("OLD", "old.png", "... what I have become")
+    myTab("OLD", "old.jpg", "... what I have become")
     # ---

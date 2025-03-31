@@ -44,11 +44,11 @@ _Note that the 3rd tab should only be there for PART 2_
 #### _if you are using Shinylive_
 
 - Option 1 : Use the following URLs instead of the file paths
-  - Young: https://pieterjanvc.github.io/RShiny2Python/assets/young.png
-  - Adult: https://pieterjanvc.github.io/RShiny2Python/assets/adult.png
-  - Old: https://pieterjanvc.github.io/RShiny2Python/assets/old.png
+  - Young: https://pieterjanvc.github.io/RShiny2Python/assets/young.jpg
+  - Adult: https://pieterjanvc.github.io/RShiny2Python/assets/adult.jpg
+  - Old: https://pieterjanvc.github.io/RShiny2Python/assets/old.jpg
 
-- Option 2: upload the images manually in the online app. e.g. `www/old.png`
+- Option 2: upload the images manually in the online app. e.g. `www/old.jpg`
 
 For more details, see the section on Shinylive in the main
 [README](../../README.md) file
