@@ -43,6 +43,7 @@ def server(input, ouput, session):
             }
         )
         todos.set(pd.concat([todos(), newTask], ignore_index=True))
+        ui.update_text("task", value="")
 
     # Mark as completed based on selected row
     @reactive.effect
@@ -54,5 +55,6 @@ def server(input, ouput, session):
             datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         )
         todos.set(updates)
+
 
 app = App(app_ui, server)

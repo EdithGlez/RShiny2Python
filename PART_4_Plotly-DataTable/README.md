@@ -149,5 +149,5 @@ app = App(app_ui, server)
 
 ## References
 
-- [Plotly](https://shiny.posit.co/py/components/outputs/plot-plotly/)
 - [DataTable](https://shiny.posit.co/py/components/outputs/data-table/)
+- [Plotly](https://shiny.posit.co/py/components/outputs/plot-plotly/)

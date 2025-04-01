@@ -43,6 +43,7 @@ def server(input, ouput, session):
             }
         )
         todos.set(pd.concat([todos(), newTask], ignore_index=True))
-   
+        ui.update_text("task", value="")
+
 
 app = App(app_ui, server)
