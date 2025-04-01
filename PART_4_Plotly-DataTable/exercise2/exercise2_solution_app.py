@@ -10,6 +10,7 @@ import plotly.graph_objects as go
 import json
 from pathlib import Path
 
+# --- PROCESSING DATA
 def format_dict_with_bullets(d, indent=0):
     result = []
     for key, value in d.items():
@@ -24,7 +25,6 @@ def format_dict_with_bullets(d, indent=0):
             result.append(f"{space}- {key}: {value}<br>")
     return "\n".join(result)
 
-# Edit data
 file = "PART_4_Plotly-DataTable\\exercise2\\agenda.json"
 file = Path(__file__).parent / "agenda.json"
 
@@ -45,6 +45,8 @@ df['end'] = df['end'].apply(lambda x: x.replace(day=1))
 df['start'] = df['start'].apply(lambda x: x.replace(day=1))
 df['start'] = df['start'].dt.tz_localize('UTC').dt.tz_convert('US/Eastern')
 df['end'] = df['end'].dt.tz_localize('UTC').dt.tz_convert('US/Eastern')
+
+# --- APP
 
 app_ui = ui.page_fluid(
     output_widget("plt"),
@@ -69,7 +71,6 @@ def server(input, output, session):
     @render.ui
     def details():
         req(point_clicked() >= 0)
-        print(data[point_clicked()])
         return ui.h3(ui.HTML(format_dict_with_bullets(data[point_clicked()])))
 
 app = App(app_ui, server)
