@@ -1,0 +1,1073 @@
+{
+    "session_0": {
+        "track": "Track 1",
+        "start_time": "2025-04-09T12:00:00",
+        "end_time": "2025-04-09T15:00:00",
+        "title": "Workshop: Optimizing Performance in Shiny: Tips and Best Practices",
+        "speakers": [
+            "Samuel Calderon"
+        ],
+        "tags": [
+            "workshop",
+            "intermediate",
+            "Best Practices"
+        ]
+    },
+    "session_1": {
+        "track": "Track 2",
+        "start_time": "2025-04-09T12:00:00",
+        "end_time": "2025-04-09T14:00:00",
+        "title": "Workshop: DIY: Unclog Your Scripts with Plumber in R",
+        "speakers": [
+            "Deepansh Khurana"
+        ],
+        "tags": [
+            "workshop",
+            "intermediate",
+            "Best Practices",
+            "Technical Deep Dives"
+        ]
+    },
+    "session_2": {
+        "track": "Track 2",
+        "start_time": "2025-04-09T15:00:00",
+        "end_time": "2025-04-09T16:30:00",
+        "title": "Workshop: Designing Inclusive Shiny Dashboards: Accessibility Best Practices and Innovations",
+        "speakers": [
+            "Abigail Stamm",
+            "Eric Kvale"
+        ],
+        "tags": [
+            "workshop",
+            "intermediate",
+            "Best Practices",
+            "UI/UX"
+        ]
+    },
+    "session_3": {
+        "track": "Track 1",
+        "start_time": "2025-04-09T16:00:00",
+        "end_time": "2025-04-09T19:00:00",
+        "title": "Workshop: Transferring your R Shiny skills to Python",
+        "speakers": [
+            "PJ Van Camp"
+        ],
+        "tags": [
+            "workshop",
+            "intermediate",
+            "advanced",
+            "Shiny for Python"
+        ]
+    },
+    "session_4": {
+        "track": "Track 2",
+        "start_time": "2025-04-09T17:00:00",
+        "end_time": "2025-04-09T19:00:00",
+        "title": "Workshop: Why Is It Triggering Twice? Understanding Shiny Reactivity",
+        "speakers": [
+            "Douglas Mesquita"
+        ],
+        "tags": [
+            "workshop",
+            "Best Practices"
+        ]
+    },
+    "session_5": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T12:00:00",
+        "end_time": "2025-04-10T12:10:00",
+        "title": "Opening remarks",
+        "speakers": [],
+        "tags": []
+    },
+    "session_6": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T12:10:00",
+        "end_time": "2025-04-10T12:30:00",
+        "title": "Beyond {shiny}: The Future of Mobile Apps with R",
+        "speakers": [
+            "Colin Fay"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Shiny Innovation"
+        ]
+    },
+    "session_7": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T12:10:00",
+        "end_time": "2025-04-10T12:30:00",
+        "title": "Choosing the right tool for interactive dashboards: flexdashboard, Quarto, or Shiny",
+        "speakers": [
+            "Isabella Vel\u00e1squez"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Best Practices"
+        ]
+    },
+    "session_8": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T12:30:00",
+        "end_time": "2025-04-10T12:50:00",
+        "title": "Interactive Shiny Applications in R Documentation with {roxy.shinylive}",
+        "speakers": [
+            "Pawel Rucki"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "Technical Deep Dives",
+            "Shiny Innovation"
+        ]
+    },
+    "session_9": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T12:30:00",
+        "end_time": "2025-04-10T12:50:00",
+        "title": "Refactor or Preserve? Challenging the 'If It Ain\u2019t Broken, Don\u2019t Fix It' Mindset in Shiny App Lifecy",
+        "speakers": [
+            "Dror Berel"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Best Practices"
+        ]
+    },
+    "session_10": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T12:50:00",
+        "end_time": "2025-04-10T13:00:00",
+        "title": "Quick break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_11": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T13:00:00",
+        "end_time": "2025-04-10T14:00:00",
+        "title": "Building LLM-Powered Shiny apps via ellmer and chatlas",
+        "speakers": [
+            "Carson Sievert"
+        ],
+        "tags": [
+            "tutorial (60 min)",
+            "LLM/AI and Shiny",
+            "Shiny Innovation"
+        ]
+    },
+    "session_12": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T14:00:00",
+        "end_time": "2025-04-10T14:20:00",
+        "title": "Building AI Bots With R-Shiny",
+        "speakers": [
+            "Albert Rapp"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "LLM/AI and Shiny"
+        ]
+    },
+    "session_13": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T14:00:00",
+        "end_time": "2025-04-10T14:20:00",
+        "title": "Death By Dropdown? A Developer\u2019s Guide To Building Dashboards That Won\u2019t Fry Your Client\u2019s Brain",
+        "speakers": [
+            "Milena Eickhoff",
+            "Jeremy Winget, PhD"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "UI/UX"
+        ]
+    },
+    "session_14": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T14:20:00",
+        "end_time": "2025-04-10T14:40:00",
+        "title": "Building state of the art RAG-LLM applications with R Shiny.",
+        "speakers": [
+            "Mohamed El Fodil Ihaddaden"
+        ],
+        "tags": [
+            "20 min talk",
+            "advanced",
+            "LLM/AI and Shiny"
+        ]
+    },
+    "session_15": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T14:20:00",
+        "end_time": "2025-04-10T14:40:00",
+        "title": "Building Your Pit of Success: Practical Strategies for Shiny App Development and Deployment",
+        "speakers": [
+            "Umair Durrani"
+        ],
+        "tags": [
+            "20 min talk",
+            "beginner",
+            "Best Practices"
+        ]
+    },
+    "session_16": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T14:40:00",
+        "end_time": "2025-04-10T15:00:00",
+        "title": "Coffee break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_17": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T15:00:00",
+        "end_time": "2025-04-10T15:20:00",
+        "title": "AI Kung-Fu: Training your model in Two Function Calls",
+        "speakers": [
+            "Barret Schloerke"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "LLM/AI and Shiny"
+        ]
+    },
+    "session_18": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T15:00:00",
+        "end_time": "2025-04-10T15:20:00",
+        "title": "Creating and Sharing Scalable Applications with Shiny",
+        "speakers": [
+            "Daniel Chen"
+        ],
+        "tags": [
+            "20 min talk",
+            "beginner",
+            "Best Practices"
+        ]
+    },
+    "session_19": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T15:20:00",
+        "end_time": "2025-04-10T15:30:00",
+        "title": "Harnessing Agentic AI with Shiny",
+        "speakers": [
+            "Yigit Aydede"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "LLM/AI and Shiny"
+        ]
+    },
+    "session_20": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T15:20:00",
+        "end_time": "2025-04-10T15:30:00",
+        "title": "Making Research Interactive: Developing a Shiny App for Open Science",
+        "speakers": [
+            "Riva Quiroga",
+            "Joshua Kunst"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "beginner",
+            "Shiny for Good"
+        ]
+    },
+    "session_21": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T15:30:00",
+        "end_time": "2025-04-10T15:50:00",
+        "title": "Practical LLMs in Shiny: Breaking Down Problems, Building Up Solutions",
+        "speakers": [
+            "Piotr Pasza Storo\u017cenko"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "LLM/AI and Shiny",
+            "Shiny Innovation"
+        ]
+    },
+    "session_22": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T15:30:00",
+        "end_time": "2025-04-10T15:50:00",
+        "title": "Designing User-Centric Shiny Apps through Client Conversations: UI/UX strategies and Gherkin",
+        "speakers": [
+            "Jasmine Daly"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Best Practices",
+            "UI/UX"
+        ]
+    },
+    "session_23": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T15:50:00",
+        "end_time": "2025-04-10T16:00:00",
+        "title": "Turning My Goodreads Data into a Shiny App No One Asked For",
+        "speakers": [
+            "Gigi Kenneth"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "LLM/AI and Shiny",
+            "Shiny for Fun"
+        ]
+    },
+    "session_24": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T16:00:00",
+        "end_time": "2025-04-10T16:20:00",
+        "title": "Curbcut: A case study in building the \u201cworld\u2019s best\u201d large, public-facing Shiny app",
+        "speakers": [
+            "Maxime B\u00e9langer De Blois",
+            "David Wachsmuth"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "Shiny for Good",
+            "Real World Use Cases",
+            "Shiny Innovation"
+        ]
+    },
+    "session_25": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T16:00:00",
+        "end_time": "2025-04-10T16:20:00",
+        "title": "Beyond the Rainbow: Why Color Is Key to Effective & Inclusive App UI Design",
+        "speakers": [
+            "Hubert Ha\u0142un"
+        ],
+        "tags": [
+            "20 min talk",
+            "advanced",
+            "UI/UX"
+        ]
+    },
+    "session_26": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T16:30:00",
+        "end_time": "2025-04-10T17:00:00",
+        "title": "Networking / Longer Break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_27": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T17:00:00",
+        "end_time": "2025-04-10T17:20:00",
+        "title": "No-code data analysis and dashboards with the blockr ecosystem",
+        "speakers": [
+            "Nicolas Bennett"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Technical Deep Dives",
+            "UI/UX",
+            "Shiny Innovation"
+        ]
+    },
+    "session_28": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T17:00:00",
+        "end_time": "2025-04-10T17:10:00",
+        "title": "Shiny Application for Real-Time Air Quality Monitoring",
+        "speakers": [
+            "Edgar Luis C\u00e1ceres Angulo",
+            "Andr\u00e9s Daniel Brios Abanto"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "advanced",
+            "Real World Use Cases"
+        ]
+    },
+    "session_29": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T17:10:00",
+        "end_time": "2025-04-10T17:20:00",
+        "title": "Interactive Visualizations of Global Debt Networks with Shiny",
+        "speakers": [
+            "Christoph Scheuch"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "beginner",
+            "Real World Use Cases"
+        ]
+    },
+    "session_30": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T17:20:00",
+        "end_time": "2025-04-10T17:40:00",
+        "title": "Adoption tracking for Connect Shiny applications",
+        "speakers": [
+            "Marcin Dubel"
+        ],
+        "tags": [
+            "20 min talk",
+            "beginner",
+            "Enterprise Deployment",
+            "Shiny Innovation"
+        ]
+    },
+    "session_31": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T17:20:00",
+        "end_time": "2025-04-10T17:40:00",
+        "title": "Theming Made Easy: Introducing brand.yml for Shiny",
+        "speakers": [
+            "Garrick Aden-Buie"
+        ],
+        "tags": [
+            "20 min talk",
+            "beginner",
+            "UI/UX",
+            "Shiny Innovation"
+        ]
+    },
+    "session_32": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T17:40:00",
+        "end_time": "2025-04-10T18:00:00",
+        "title": "Can an AI pass the Shiny developer interview?",
+        "speakers": [
+            "Pavel Demin"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "beginner"
+        ]
+    },
+    "session_33": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T18:00:00",
+        "end_time": "2025-04-10T18:10:00",
+        "title": "Speaking to the Data: Democratizing AI-Driven Exploration with Shiny for Python and CIP Dataverse",
+        "speakers": [
+            "Piero Palacios",
+            "Henry Juarez"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "LLM/AI and Shiny",
+            "Shiny for Python"
+        ]
+    },
+    "session_34": {
+        "track": "Track 2",
+        "start_time": "2025-04-10T18:00:00",
+        "end_time": "2025-04-10T18:10:00",
+        "title": "Modern Shiny Dashboard with bslib",
+        "speakers": [
+            "Philippe Peret"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "advanced",
+            "UI/UX",
+            "Shiny Innovation"
+        ]
+    },
+    "session_35": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T18:10:00",
+        "end_time": "2025-04-10T18:30:00",
+        "title": "Coffee break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_36": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T18:30:00",
+        "end_time": "2025-04-10T19:20:00",
+        "title": "Keynote: AI and Shiny",
+        "speakers": [
+            "Winston Chang"
+        ],
+        "tags": [
+            "keynote",
+            "LLM/AI and Shiny",
+            "Shiny Innovation"
+        ]
+    },
+    "session_37": {
+        "track": "Track 1",
+        "start_time": "2025-04-10T19:20:00",
+        "end_time": "2025-04-10T19:30:00",
+        "title": "Summary of the day",
+        "speakers": [],
+        "tags": []
+    },
+    "session_38": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T12:00:00",
+        "end_time": "2025-04-11T12:20:00",
+        "title": "{gsm.app}: Extensible Clinical Trial Monitoring Apps",
+        "speakers": [
+            "Jon Harmon",
+            "Jeremy Wildfire"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_39": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T12:00:00",
+        "end_time": "2025-04-11T12:20:00",
+        "title": "Building Elkem's R Universe, One Package at a Time",
+        "speakers": [
+            "Recle Vibal",
+            "Kjell H\u00e5kon Berget"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Enterprise Deployment",
+            "Real World Use Cases"
+        ]
+    },
+    "session_40": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T12:20:00",
+        "end_time": "2025-04-11T12:40:00",
+        "title": "Bridging Open-Source and Enterprise: Integrating {teal} into Shiny Frameworks",
+        "speakers": [
+            "Alexandros Kouretsis",
+            "Paulo Bargo",
+            "Ardalan Mirshani"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "beginner",
+            "Enterprise Deployment",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_41": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T12:20:00",
+        "end_time": "2025-04-11T12:40:00",
+        "title": "Enterprise Deployment: Strategies for Monitoring Shiny Applications in Production",
+        "speakers": [
+            "Xavier Escrib\u00e0 Montagut"
+        ],
+        "tags": [
+            "20 min talk",
+            "advanced",
+            "Enterprise Deployment"
+        ]
+    },
+    "session_42": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T12:40:00",
+        "end_time": "2025-04-11T13:00:00",
+        "title": "Interactive Visualizations for Medical Data Review: A teal Module Showcase",
+        "speakers": [
+            "Nina Qi",
+            "Dony Unardi"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_43": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T12:40:00",
+        "end_time": "2025-04-11T13:00:00",
+        "title": "From Data to Narrative: Interactive Storytelling with Shiny",
+        "speakers": [
+            "Francisco Alfaro"
+        ],
+        "tags": [
+            "20 min talk",
+            "beginner",
+            "Technical Deep Dives",
+            "UI/UX"
+        ]
+    },
+    "session_44": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T13:00:00",
+        "end_time": "2025-04-11T13:10:00",
+        "title": "Interactive Reporting with Shiny for Clinical Trial Management",
+        "speakers": [
+            "Kristen Steenbergen"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_45": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T13:00:00",
+        "end_time": "2025-04-11T13:20:00",
+        "title": "Enhancing Shiny Projects with pre-commit Hooks, {renv} Profiles, and Release Management",
+        "speakers": [
+            "Tymoteusz Makowski"
+        ],
+        "tags": [
+            "20 min talk",
+            "Best Practices",
+            "Technical Deep Dives"
+        ]
+    },
+    "session_46": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T13:10:00",
+        "end_time": "2025-04-11T13:20:00",
+        "title": "ChestVolume: Shiny App for 3D Chest Expansion Analysis",
+        "speakers": [
+            "Patrick Kwong"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_47": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T13:20:00",
+        "end_time": "2025-04-11T13:40:00",
+        "title": "Empowering Multiomic Data Exploration with Scalable Shiny Applications",
+        "speakers": [
+            "Matias Romero Victorica",
+            "Camila Cirignoli",
+            "Mikhail Osipovitch"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Enterprise Deployment",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_48": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T13:20:00",
+        "end_time": "2025-04-11T13:40:00",
+        "title": "Shiny as a Service - leveraging Auth0 and Stripe",
+        "speakers": [
+            "Simon Bjerrum Eilersen"
+        ],
+        "tags": [
+            "20 min talk",
+            "advanced",
+            "Enterprise Deployment"
+        ]
+    },
+    "session_49": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T13:40:00",
+        "end_time": "2025-04-11T13:50:00",
+        "title": "Diagnosing Autism with R Shiny",
+        "speakers": [
+            "Taylor Rodgers",
+            "Lee Mason"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "Shiny for Good"
+        ]
+    },
+    "session_50": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T13:40:00",
+        "end_time": "2025-04-11T14:00:00",
+        "title": "Deploy with Confidence: Strategies to Minimize Failure and Maximize Success (on Posit Connect)",
+        "speakers": [
+            "Ryszard Szyma\u0144ski"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Best Practices",
+            "Enterprise Deployment"
+        ]
+    },
+    "session_51": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T13:50:00",
+        "end_time": "2025-04-11T14:00:00",
+        "title": "Bridging the Gap: Making Cancer Data Accessible for Policy Makers",
+        "speakers": [
+            "Matt Grant"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "beginner",
+            "Shiny for Good",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_52": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T14:00:00",
+        "end_time": "2025-04-11T14:20:00",
+        "title": "Open Source in Pharma: Transforming Medical Monitoring for Clinical Trials with {ClinSight}",
+        "speakers": [
+            "Leonard Daniel Samson",
+            "Aaron Clark",
+            "Jeff Thompson"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "Life Sciences/Pharma",
+            "Open Source"
+        ]
+    },
+    "session_53": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T14:00:00",
+        "end_time": "2025-04-11T14:20:00",
+        "title": "Shiny Solutions to High-Cardinality Geospatial Challenges",
+        "speakers": [
+            "Jeffrey Fowler"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Best Practices",
+            "Technical Deep Dives"
+        ]
+    },
+    "session_54": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T14:20:00",
+        "end_time": "2025-04-11T14:30:00",
+        "title": "Signal Detection Tool: An R shiny app supporting automated detection of infectious disease outbreaks",
+        "speakers": [
+            "Ann Christin Vietor"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "Real World Use Cases",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_55": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T14:20:00",
+        "end_time": "2025-04-11T14:30:00",
+        "title": "R-ception: Train R-novices through a Shiny Training App",
+        "speakers": [
+            "Meike Go"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "Real World Use Cases"
+        ]
+    },
+    "session_56": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T14:30:00",
+        "end_time": "2025-04-11T14:40:00",
+        "title": "Streamlining Portfolio Management with Shiny",
+        "speakers": [
+            "Ashley Dennie"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "Real World Use Cases"
+        ]
+    },
+    "session_57": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T14:30:00",
+        "end_time": "2025-04-11T14:40:00",
+        "title": "ShinyQDA: R Package and Shiny Application for the Analysis of Qualitative Data",
+        "speakers": [
+            "Jason Bryer"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "Real World Use Cases"
+        ]
+    },
+    "session_58": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T14:40:00",
+        "end_time": "2025-04-11T15:00:00",
+        "title": "Coffee break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_59": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T15:00:00",
+        "end_time": "2025-04-11T15:50:00",
+        "title": "Transforming Clinical Trials: How R & Shiny are speeding up and enhancing decision-making",
+        "speakers": [
+            "Aga Rasinska"
+        ],
+        "tags": [
+            "keynote"
+        ]
+    },
+    "session_60": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T15:50:00",
+        "end_time": "2025-04-11T16:10:00",
+        "title": "In the Nix of Time: A new approach to Shiny development & deployment with Nix and {rix}",
+        "speakers": [
+            "Eric Nantz"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "Technical Deep Dives",
+            "Enterprise Deployment"
+        ]
+    },
+    "session_61": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T15:50:00",
+        "end_time": "2025-04-11T16:10:00",
+        "title": "Yet Another Year in the Rhinoverse",
+        "speakers": [
+            "Jakub Nowicki"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "beginner",
+            "Open Source"
+        ]
+    },
+    "session_62": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T16:10:00",
+        "end_time": "2025-04-11T16:30:00",
+        "title": "The 'ggiraph' Cookbook: Recipes for Interactive and Performant Shiny Visualizations",
+        "speakers": [
+            "David Gohel"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Technical Deep Dives"
+        ]
+    },
+    "session_63": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T16:10:00",
+        "end_time": "2025-04-11T16:30:00",
+        "title": "Streamlined Shiny Development with CI/CD",
+        "speakers": [
+            "Peter Belai"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "Best Practices",
+            "Enterprise Deployment"
+        ]
+    },
+    "session_64": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T16:30:00",
+        "end_time": "2025-04-11T17:00:00",
+        "title": "Networking / Longer Break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_65": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T17:00:00",
+        "end_time": "2025-04-11T17:10:00",
+        "title": "Vivid Volcano: Empowering Wet-Lab Biologists with an Easy-to-Use Tool for Omics Data Analysis",
+        "speakers": [
+            "Tomasz St\u0119pkowski"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "beginner",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_66": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T17:00:00",
+        "end_time": "2025-04-11T17:10:00",
+        "title": "Joel's Air Quality Application Session",
+        "speakers": [
+            "Joel Duah"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "advanced",
+            "Shiny for Good",
+            "Real World Use Cases"
+        ]
+    },
+    "session_67": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T17:10:00",
+        "end_time": "2025-04-11T17:20:00",
+        "title": "Reviewing Clinical Data Efficiently with Shiny",
+        "speakers": [
+            "Winkle Lu"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "Life Sciences/Pharma"
+        ]
+    },
+    "session_68": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T17:10:00",
+        "end_time": "2025-04-11T17:20:00",
+        "title": "Generating personalized student synthetic datasets for large-scale educational assessment",
+        "speakers": [
+            "Daniel Morillo Cuadrado"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "beginner",
+            "Shiny for Good",
+            "Real World Use Cases"
+        ]
+    },
+    "session_69": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T17:20:00",
+        "end_time": "2025-04-11T17:40:00",
+        "title": "Scaling Shiny: From Hobbyist Projects to Enterprise Deployments with Posit Connect",
+        "speakers": [
+            "Alex Chisholm",
+            "Kelly O\u2019Briant"
+        ],
+        "tags": [
+            "20 min talk"
+        ]
+    },
+    "session_70": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T17:40:00",
+        "end_time": "2025-04-11T18:00:00",
+        "title": "Scaling Shiny: Seamless and Effortless Distributed Computing with mirai",
+        "speakers": [
+            "Charlie Gao"
+        ],
+        "tags": [
+            "20 min talk",
+            "advanced",
+            "Technical Deep Dives",
+            "Shiny Innovation"
+        ]
+    },
+    "session_71": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T17:40:00",
+        "end_time": "2025-04-11T18:00:00",
+        "title": "Unified Innovation: How We Started Our Shiny DevOps Journey",
+        "speakers": [
+            "Liz Whelan-Jackson"
+        ],
+        "tags": [
+            "20 min talk",
+            "intermediate",
+            "advanced",
+            "Best Practices",
+            "Real World Use Cases"
+        ]
+    },
+    "session_72": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T18:00:00",
+        "end_time": "2025-04-11T18:10:00",
+        "title": "Using Shiny to Safeguard Australia\u2019s Flora and Fauna",
+        "speakers": [
+            "Ryan Newis"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "advanced",
+            "Shiny for Good"
+        ]
+    },
+    "session_73": {
+        "track": "Track 2",
+        "start_time": "2025-04-11T18:00:00",
+        "end_time": "2025-04-11T18:10:00",
+        "title": "Guitar Study Tracker Dashboard",
+        "speakers": [
+            "Dave Guenther"
+        ],
+        "tags": [
+            "shiny app showcase (5 min)",
+            "intermediate",
+            "advanced",
+            "beginner",
+            "Shiny for Fun"
+        ]
+    },
+    "session_74": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T18:10:00",
+        "end_time": "2025-04-11T18:20:00",
+        "title": "Coffee break",
+        "speakers": [],
+        "tags": []
+    },
+    "session_75": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T18:20:00",
+        "end_time": "2025-04-11T19:20:00",
+        "title": "Tiny Shiny Hackathon Winners Announcement & Panel Discussion",
+        "speakers": [],
+        "tags": []
+    },
+    "session_76": {
+        "track": "Track 1",
+        "start_time": "2025-04-11T19:20:00",
+        "end_time": "2025-04-11T19:35:00",
+        "title": "Conference closing remarks",
+        "speakers": [],
+        "tags": []
+    }
+}
