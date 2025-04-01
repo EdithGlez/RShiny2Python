@@ -61,13 +61,14 @@ you already have RStudio installed and do not want to install anything else.
 
 ### Step 3 - Install and Test Python Shiny
 
-Run the following command in the terminal to install Shiny for Python
+Run the command below in the terminal to install Shiny for Python. 
 
 ```sh
 pip install shiny
 ```
-
-_Note: If you are using RStudio, make sure to use the Terminal and not Console_
+_This workshop has been tested with Shiny 1.3+. If you have an older version
+already installed, add the  `--upgrade` flag to this command to get the latest
+version_
 
 You can now try and run the [test_app.py](./test_app.py) file.
 

@@ -1,0 +1,78 @@
+track,start,end,title
+Track 1,2025-04-09 12:00:00,2025-04-09 15:00:00,Workshop: Optimizing Performance in Shiny: Tips and Best Practices
+Track 2,2025-04-09 12:00:00,2025-04-09 14:00:00,Workshop: DIY: Unclog Your Scripts with Plumber in R
+Track 2,2025-04-09 15:00:00,2025-04-09 16:30:00,Workshop: Designing Inclusive Shiny Dashboards: Accessibility Best Practices and Innovations
+Track 1,2025-04-09 16:00:00,2025-04-09 19:00:00,Workshop: Transferring your R Shiny skills to Python
+Track 2,2025-04-09 17:00:00,2025-04-09 19:00:00,Workshop: Why Is It Triggering Twice? Understanding Shiny Reactivity
+Track 1,2025-04-10 12:00:00,2025-04-10 12:10:00,Opening remarks
+Track 1,2025-04-10 12:10:00,2025-04-10 12:30:00,Beyond {shiny}: The Future of Mobile Apps with R
+Track 2,2025-04-10 12:10:00,2025-04-10 12:30:00,"Choosing the right tool for interactive dashboards: flexdashboard, Quarto, or Shiny"
+Track 1,2025-04-10 12:30:00,2025-04-10 12:50:00,Interactive Shiny Applications in R Documentation with {roxy.shinylive}
+Track 2,2025-04-10 12:30:00,2025-04-10 12:50:00,"Refactor or Preserve? Challenging the 'If It Ain’t Broken, Don’t Fix It' Mindset in Shiny App Lifecy"
+Track 1,2025-04-10 12:50:00,2025-04-10 13:00:00,Quick break
+Track 1,2025-04-10 13:00:00,2025-04-10 14:00:00,Building LLM-Powered Shiny apps via ellmer and chatlas
+Track 1,2025-04-10 14:00:00,2025-04-10 14:20:00,Building AI Bots With R-Shiny
+Track 2,2025-04-10 14:00:00,2025-04-10 14:20:00,Death By Dropdown? A Developer’s Guide To Building Dashboards That Won’t Fry Your Client’s Brain
+Track 1,2025-04-10 14:20:00,2025-04-10 14:40:00,Building state of the art RAG-LLM applications with R Shiny.
+Track 2,2025-04-10 14:20:00,2025-04-10 14:40:00,Building Your Pit of Success: Practical Strategies for Shiny App Development and Deployment
+Track 1,2025-04-10 14:40:00,2025-04-10 15:00:00,Coffee break
+Track 1,2025-04-10 15:00:00,2025-04-10 15:20:00,AI Kung-Fu: Training your model in Two Function Calls
+Track 2,2025-04-10 15:00:00,2025-04-10 15:20:00,Creating and Sharing Scalable Applications with Shiny
+Track 1,2025-04-10 15:20:00,2025-04-10 15:30:00,Harnessing Agentic AI with Shiny
+Track 2,2025-04-10 15:20:00,2025-04-10 15:30:00,Making Research Interactive: Developing a Shiny App for Open Science
+Track 1,2025-04-10 15:30:00,2025-04-10 15:50:00,"Practical LLMs in Shiny: Breaking Down Problems, Building Up Solutions"
+Track 2,2025-04-10 15:30:00,2025-04-10 15:50:00,Designing User-Centric Shiny Apps through Client Conversations: UI/UX strategies and Gherkin
+Track 1,2025-04-10 15:50:00,2025-04-10 16:00:00,Turning My Goodreads Data into a Shiny App No One Asked For
+Track 1,2025-04-10 16:00:00,2025-04-10 16:20:00,"Curbcut: A case study in building the “world’s best” large, public-facing Shiny app"
+Track 2,2025-04-10 16:00:00,2025-04-10 16:20:00,Beyond the Rainbow: Why Color Is Key to Effective & Inclusive App UI Design
+Track 1,2025-04-10 16:30:00,2025-04-10 17:00:00,Networking / Longer Break
+Track 1,2025-04-10 17:00:00,2025-04-10 17:20:00,No-code data analysis and dashboards with the blockr ecosystem
+Track 2,2025-04-10 17:00:00,2025-04-10 17:10:00,Shiny Application for Real-Time Air Quality Monitoring
+Track 2,2025-04-10 17:10:00,2025-04-10 17:20:00,Interactive Visualizations of Global Debt Networks with Shiny
+Track 1,2025-04-10 17:20:00,2025-04-10 17:40:00,Adoption tracking for Connect Shiny applications
+Track 2,2025-04-10 17:20:00,2025-04-10 17:40:00,Theming Made Easy: Introducing brand.yml for Shiny
+Track 1,2025-04-10 17:40:00,2025-04-10 18:00:00,Can an AI pass the Shiny developer interview?
+Track 1,2025-04-10 18:00:00,2025-04-10 18:10:00,Speaking to the Data: Democratizing AI-Driven Exploration with Shiny for Python and CIP Dataverse
+Track 2,2025-04-10 18:00:00,2025-04-10 18:10:00,Modern Shiny Dashboard with bslib
+Track 1,2025-04-10 18:10:00,2025-04-10 18:30:00,Coffee break
+Track 1,2025-04-10 18:30:00,2025-04-10 19:20:00,Keynote: AI and Shiny
+Track 1,2025-04-10 19:20:00,2025-04-10 19:30:00,Summary of the day
+Track 1,2025-04-11 12:00:00,2025-04-11 12:20:00,{gsm.app}: Extensible Clinical Trial Monitoring Apps
+Track 2,2025-04-11 12:00:00,2025-04-11 12:20:00,"Building Elkem's R Universe, One Package at a Time"
+Track 1,2025-04-11 12:20:00,2025-04-11 12:40:00,Bridging Open-Source and Enterprise: Integrating {teal} into Shiny Frameworks
+Track 2,2025-04-11 12:20:00,2025-04-11 12:40:00,Enterprise Deployment: Strategies for Monitoring Shiny Applications in Production
+Track 1,2025-04-11 12:40:00,2025-04-11 13:00:00,Interactive Visualizations for Medical Data Review: A teal Module Showcase
+Track 2,2025-04-11 12:40:00,2025-04-11 13:00:00,From Data to Narrative: Interactive Storytelling with Shiny
+Track 1,2025-04-11 13:00:00,2025-04-11 13:10:00,Interactive Reporting with Shiny for Clinical Trial Management
+Track 2,2025-04-11 13:00:00,2025-04-11 13:20:00,"Enhancing Shiny Projects with pre-commit Hooks, {renv} Profiles, and Release Management"
+Track 1,2025-04-11 13:10:00,2025-04-11 13:20:00,ChestVolume: Shiny App for 3D Chest Expansion Analysis
+Track 1,2025-04-11 13:20:00,2025-04-11 13:40:00,Empowering Multiomic Data Exploration with Scalable Shiny Applications
+Track 2,2025-04-11 13:20:00,2025-04-11 13:40:00,Shiny as a Service - leveraging Auth0 and Stripe
+Track 1,2025-04-11 13:40:00,2025-04-11 13:50:00,Diagnosing Autism with R Shiny
+Track 2,2025-04-11 13:40:00,2025-04-11 14:00:00,Deploy with Confidence: Strategies to Minimize Failure and Maximize Success (on Posit Connect)
+Track 1,2025-04-11 13:50:00,2025-04-11 14:00:00,Bridging the Gap: Making Cancer Data Accessible for Policy Makers
+Track 1,2025-04-11 14:00:00,2025-04-11 14:20:00,Open Source in Pharma: Transforming Medical Monitoring for Clinical Trials with {ClinSight}
+Track 2,2025-04-11 14:00:00,2025-04-11 14:20:00,Shiny Solutions to High-Cardinality Geospatial Challenges
+Track 1,2025-04-11 14:20:00,2025-04-11 14:30:00,Signal Detection Tool: An R shiny app supporting automated detection of infectious disease outbreaks
+Track 2,2025-04-11 14:20:00,2025-04-11 14:30:00,R-ception: Train R-novices through a Shiny Training App
+Track 1,2025-04-11 14:30:00,2025-04-11 14:40:00,Streamlining Portfolio Management with Shiny
+Track 2,2025-04-11 14:30:00,2025-04-11 14:40:00,ShinyQDA: R Package and Shiny Application for the Analysis of Qualitative Data
+Track 1,2025-04-11 14:40:00,2025-04-11 15:00:00,Coffee break
+Track 1,2025-04-11 15:00:00,2025-04-11 15:50:00,Transforming Clinical Trials: How R & Shiny are speeding up and enhancing decision-making
+Track 1,2025-04-11 15:50:00,2025-04-11 16:10:00,In the Nix of Time: A new approach to Shiny development & deployment with Nix and {rix}
+Track 2,2025-04-11 15:50:00,2025-04-11 16:10:00,Yet Another Year in the Rhinoverse
+Track 1,2025-04-11 16:10:00,2025-04-11 16:30:00,The 'ggiraph' Cookbook: Recipes for Interactive and Performant Shiny Visualizations
+Track 2,2025-04-11 16:10:00,2025-04-11 16:30:00,Streamlined Shiny Development with CI/CD
+Track 1,2025-04-11 16:30:00,2025-04-11 17:00:00,Networking / Longer Break
+Track 1,2025-04-11 17:00:00,2025-04-11 17:10:00,Vivid Volcano: Empowering Wet-Lab Biologists with an Easy-to-Use Tool for Omics Data Analysis
+Track 2,2025-04-11 17:00:00,2025-04-11 17:10:00,Joel's Air Quality Application Session
+Track 1,2025-04-11 17:10:00,2025-04-11 17:20:00,Reviewing Clinical Data Efficiently with Shiny
+Track 2,2025-04-11 17:10:00,2025-04-11 17:20:00,Generating personalized student synthetic datasets for large-scale educational assessment
+Track 1,2025-04-11 17:20:00,2025-04-11 17:40:00,Scaling Shiny: From Hobbyist Projects to Enterprise Deployments with Posit Connect
+Track 1,2025-04-11 17:40:00,2025-04-11 18:00:00,Scaling Shiny: Seamless and Effortless Distributed Computing with mirai
+Track 2,2025-04-11 17:40:00,2025-04-11 18:00:00,Unified Innovation: How We Started Our Shiny DevOps Journey
+Track 1,2025-04-11 18:00:00,2025-04-11 18:10:00,Using Shiny to Safeguard Australia’s Flora and Fauna
+Track 2,2025-04-11 18:00:00,2025-04-11 18:10:00,Guitar Study Tracker Dashboard
+Track 1,2025-04-11 18:10:00,2025-04-11 18:20:00,Coffee break
+Track 1,2025-04-11 18:20:00,2025-04-11 19:20:00,Tiny Shiny Hackathon Winners Announcement & Panel Discussion
+Track 1,2025-04-11 19:20:00,2025-04-11 19:35:00,Conference closing remarks

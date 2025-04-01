@@ -21,7 +21,7 @@ app_ui = ui.page_fluid(
 )
 
 
-def server(input, ouput, session):
+def server(input, output, session):
     #  Start with empty data frame
     todos = reactive.value(pd.DataFrame())
 

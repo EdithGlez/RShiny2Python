@@ -21,7 +21,7 @@ app_ui = ui.page_fluid(
 
 
 # SERVER
-def server(input, ouput, session):
+def server(input, output, session):
     # Select a random word every time the app reloads
     word = random.choice(words)
     guesses = reactive.value([])

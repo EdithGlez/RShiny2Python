@@ -21,7 +21,7 @@ app_ui = ui.page_fluid(
 
 
 # SERVER
-def server(input, ouput, session):
+def server(input, output, session):
     # None-reactive Hangman game code
     word = random.choice(words)
     guesses = ["m"]

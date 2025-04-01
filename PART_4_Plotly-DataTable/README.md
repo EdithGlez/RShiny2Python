@@ -64,7 +64,7 @@ plotly express is used in both the Core and Express version of Shiny.
 Plotly plots are widgets and Python Shiny comes with an additional library
 called `shinywidgets` to interact with them.
 
-_Note: This workshop is not focussing on creating Plotly plots, so all relevant 
+_Note: This workshop is not focussing on creating Plotly plots, so all relevant
 code will be provided_
 
 ## Basic plotly plot
@@ -146,6 +146,16 @@ app = App(app_ui, server)
   the widget using widget.data[0].on_click. This function contains info about
   the trace, points and selector. You can then update a reactive variable (e.g.
   point_clicked) using the info returned after a user click
+
+## Modifying existing data tables and Plotly plots
+
+**In R Shiny proxy objects can be created** to update existing data tables or
+Plotly plots without the need to fully regenerate them, which results in a a
+smoother user experience.
+
+Similar functionality is possible in **Python Shiny**, though this is not
+achieved through separate proxy object but **built-in to the table/plot
+object**. This is beyond the scope of this workshop, but know it is possible.
 
 ## References
 

@@ -15,7 +15,7 @@ app_ui = ui.page_fluid(
 
 
 # You can ignore the sever function for this exercise
-def server(input, ouput, session):
+def server(input, output, session):
     pass
 
 

@@ -7,7 +7,7 @@ app_ui = ui.page_fluid()
 
 
 # Ignore for now
-def server(input, ouput, session):
+def server(input, output, session):
     pass
 
 
