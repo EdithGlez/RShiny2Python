@@ -14,12 +14,14 @@ everything set up to start creating your own apps. You have two options:
 
 ### Step 1 - Make sure you have Python installed
 
-Using the latest version is best, but try at least to have version 3.8+ To check
-you Python version, run the following command on the Terminal
+To check your current, default Python version, run the following command on the
+Terminal
 
 ```
 python --version
 ```
+_Python 3.13 was used whilst creating the exercises, but older versions should 
+work as well_
 
 ### Step 2 - Pick an IDE
 
@@ -59,15 +61,29 @@ you already have RStudio installed and do not want to install anything else.
 2. Install the reticulate package `install.packages("reticulate")`
 3. Set the Python interpreter: Tools --> Global Options --> Python
 
-### Step 3 - Install and Test Python Shiny
+### Step 3 - Install Packages
 
-Run the command below in the terminal to install Shiny for Python. 
+#### Option 1 - Setup a virtual environment
+
+To ensure all exercises work as intended, it is recommended to create a virtual
+environment for this repository to run in. If you do not want to do this or
+don't mind just using the global python environment, skip to Step 3.
+
+- If you are using the built-in python environment manager use
+  `requirements.txt` to install all dependencies
+- If you are using [uv](https://docs.astral.sh/uv/), you can use the `uv.lock`
+  file
+
+#### Option 2 - Install packages globally as needed
+
+Install any required packages depending on the exercise you are at using the 
+basis pip command in the Terminal. For example:
 
 ```sh
 pip install shiny
 ```
 _This workshop has been tested with Shiny 1.3+. If you have an older version
-already installed, add the  `--upgrade` flag to this command to get the latest
+already installed, add the `--upgrade` flag to this command to get the latest
 version_
 
 You can now try and run the [test_app.py](./test_app.py) file.
