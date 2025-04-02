@@ -41,37 +41,6 @@ The following UI elements have a direct Python Shiny equivalent
 
 _There are many more UI elements available, all under the `ui` object_
 
-### HTML Tags
-
-HTML tags allow you to insert any type of static UI available in HTML, examples
-are headers, images, links, or custom divs
-
-- In R shiny you can access HTML tags via `tags$<tag>` e.g. `tags$h1()`
-- In Python they are all under `ui.<tag>` e.g. `ui.h1()`
-
-### Sourcing local images
-
-- In R shiny, all images need to reside in the `www` sub-folder of your app.
-- In python, you need to define the subfolder which contains the static assets.
-  Assuming you would also create a `www` folder you would designate it using
-
-```python
-from shiny import ui, App
-import os
-
-app_ui = ui.page_fluid(
-  ui.tags.img(src = "image.png", alt = "An image")
-)
-
-def server(input, output, session):
-  return
-
-app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), "www"))
-```
-
-_Note that similarly to R, you do not put the static assets folder name in the
-path name when sourcing in data_
-
 ### Inputs
 
 All default Shiny inputs in Python are organised under `ui.input_<name>`. The
@@ -103,6 +72,37 @@ All outputs are organised under `ui.output_<name>`
 | Table  | `tableOutput()` | `ui.output_table()` |
 | Plot   | `plotOutput`    | `ui.output_plot()`  |
 | UI     | `uiOutput()`    | `ui.output_ui()`    |
+
+### HTML Tags
+
+HTML tags allow you to insert any type of static UI available in HTML, examples
+are headers, images, links, or custom divs
+
+- In R shiny you can access HTML tags via `tags$<tag>` e.g. `tags$h1()`
+- In Python they are all under `ui.<tag>` e.g. `ui.h1()`
+
+### Sourcing local images
+
+- In R shiny, all images need to reside in the `www` sub-folder of your app.
+- In python, you need to define the subfolder which contains the static assets.
+  Assuming you would also create a `www` folder you would designate it using
+
+```python
+from shiny import ui, App
+import os
+
+app_ui = ui.page_fluid(
+  ui.tags.img(src = "image.png", alt = "An image")
+)
+
+def server(input, output, session):
+  return
+
+app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), "www"))
+```
+
+_Note that similarly to R, you do not put the static assets folder name in the
+path name when sourcing in data_
 
 ## References
 
