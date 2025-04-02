@@ -106,6 +106,6 @@ instance starts.
 
 ## References
 
-[Core vs Express](https://shiny.posit.co/py/docs/express-vs-core.html)
-[Layouts](https://shiny.posit.co/py/layouts/)
-[Express full documentation](https://shiny.posit.co/py/api/express/)
+- [Core vs Express](https://shiny.posit.co/py/docs/express-vs-core.html)
+- [Layouts](https://shiny.posit.co/py/layouts/)
+- [Express full documentation](https://shiny.posit.co/py/api/express/)
