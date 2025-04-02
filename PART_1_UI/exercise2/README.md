@@ -16,6 +16,8 @@ You will create a UI with a multiple inputs and outputs, organised in 2 columns.
 
 ![screenshot](exercise2_screenshot.png)
 
+## Shinylive Link
+https://pieterjanvc.github.io/RShiny2Python/shinylive/?part1_ex2
 
 ## References
 

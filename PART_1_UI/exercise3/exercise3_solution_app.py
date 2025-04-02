@@ -16,13 +16,13 @@ app_ui = ui.page_fluid(
                 ui.card(ui.card_header("Info"), ui.p("... some info ...")),
             ),
         ),
-        ui.nav_panel("Tab 2", ui.img(src="image.png")),
+        ui.nav_panel("Tab 2", ui.img(src="image.jpg")),
     )
 )
 
 
 # Ignore for now
-def server(input, ouput, session):
+def server(input, output, session):
     pass
 
 

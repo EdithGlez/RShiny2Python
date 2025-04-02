@@ -21,8 +21,7 @@ app_ui = ui.page_fluid(
 
 
 # SERVER
-def server(input, ouput, session):
-
+def server(input, output, session):
     # Select a random word every time the app reloads
     word = random.choice(words)
     guesses = reactive.value([])
@@ -44,7 +43,8 @@ def server(input, ouput, session):
         return " ".join([letter if letter in x else " - " for letter in list(word)])
 
     @render.ui
-    def progress():        
-        return ui.h1(result(), style = "font-family: monospace; color: #BF408B;")
+    def progress():
+        return ui.h1(result(), style="font-family: monospace; color: #BF408B;")
+
 
 app = App(app_ui, server)

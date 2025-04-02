@@ -24,6 +24,9 @@ pandas data frames for this app as this is not the focus of this workshop_
 
 ![screenshot](exercise1_screenshot.png)
 
+## Shinylive Link
+https://pieterjanvc.github.io/RShiny2Python/shinylive/?part2_ex1
+
 ## References
 
 - [render outputs](https://shiny.posit.co/py/components/#outputs)

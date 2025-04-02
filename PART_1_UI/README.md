@@ -11,7 +11,7 @@ from shiny import App, ui, reactive, render
 app_ui = ui.page_fluid(
 )
 
-def server(input, ouput, session):
+def server(input, output, session):
     pass
 
 app = App(app_ui, server)

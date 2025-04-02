@@ -21,7 +21,7 @@ data = data.dropna()
 
 
 # Get a simplified list of vehicle types
-vehicleType = list(data["Vehicle"].str.extract(r"([^\s-]+)")[0].unique())
+vehicleTypes = list(data["Vehicle"].str.extract(r"([^\s-]+)")[0].unique())
 vehicleTypes.sort()
 
 # Minimum duration in minutes
@@ -29,7 +29,7 @@ minDuration = 60
 
 # Filter based on vehicleType and minimum duration
 subset = data[
-    (data["Duration"] >= minDuration) & data["Vehicle"].str.contains(vehicleType[0])
+    (data["Duration"] >= minDuration) & data["Vehicle"].str.contains(vehicleTypes[0])
 ]
 
 # Check the subset

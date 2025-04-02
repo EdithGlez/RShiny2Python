@@ -109,3 +109,15 @@ def sum():
 
 _Note: there is no equivalent to R's `reactiveValues()`, as this can all be
 achieved with the same `reactive.value()` function using a list or dictionary_
+
+### Caution when updating reactive variables
+
+Whenever you want to assign the content of a reactive variable to a local 
+variable, you must copy it to avoid unexpected behaviour.
+
+Example
+```python
+x = myval().copy()
+_ = x.pop()
+myval.set(x)
+```

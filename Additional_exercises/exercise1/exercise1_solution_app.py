@@ -54,7 +54,7 @@ app_ui = ui.page_fixed(
 )
 
 
-def server(input, ouput, session):
+def server(input, output, session):
     solution = random.choices(colours, k=4)
     log = reactive.value("--- Welcome to the Mastermind Game! ---")
 

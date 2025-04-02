@@ -44,6 +44,9 @@ and max values_
 
 ![screenshot](exercise2_screenshot.png)
 
+## Shinylive Link
+https://pieterjanvc.github.io/RShiny2Python/shinylive/?part3_ex2
+
 ## References
 
 - [dataset](https://catalog.data.gov/dataset/extra-vehicular-activity-eva-us-and-russia)
