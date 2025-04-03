@@ -1,7 +1,7 @@
 # PART 3 - Exercise 1
 # ///////////////////
 
-import os
+from pathlib import Path
 from shiny.express import input, render, ui, app_opts, expressify
 
 # Tab 1 - YOUNG

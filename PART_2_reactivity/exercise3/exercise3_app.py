@@ -1,35 +1,108 @@
 # PART 2 - Exercise 3
-# ///////////////////
 
-import requests
-import string
-import random
 from shiny import App, ui, render, reactive
+import seaborn as sns
+import pandas as pd
+from pathlib import Path
 
-# Get the data and process it
-url = "https://raw.githubusercontent.com/pkLazer/password_rank/refs/heads/master/4000-most-common-english-words-csv.csv"
-words = requests.get(url).text.splitlines()
-words = [word for word in words if len(word) == 6]
+# data = pd.read_csv("PART_2_reactivity/exercise3/foods.csv")
+data = pd.read_csv(Path(__file__).parent / "foods.csv")
+data = data.sort_values('Food')
 
 # UI
 app_ui = ui.page_fluid(
-    ui.panel_title("Hangman"),
-    ui.output_ui("progress"),
-    ui.input_select("letter", "Pick a letter", choices=list(string.ascii_lowercase)),
-    ui.input_action_button("guess", "Guess"),
+    ui.panel_title("If I could only eat one thing ..."),
+    ui.row(
+        ui.column(
+            4,
+            ui.card(
+                ui.card_header("Selection"),
+                ui.input_select("food", "Pick a Food", choices=list(data["Food"])),
+                ui.input_select(
+                    "comp",
+                    "Daily intake component to match",
+                    choices=["Carbs", "Protein", "Fat", "Calories"],
+                ),
+            ),
+        ),
+        ui.column(
+            8,
+            ui.card(
+                ui.card_header("Target Daily intake"),
+                ui.row(
+                    ui.column(
+                        6,
+                        ui.input_slider(
+                            "Carbs", "Carbs (g)", min=10, max=500, value=250
+                        ),
+                        ui.input_slider(
+                            "Protein", "Protein (g)", min=10, max=200, value=50
+                        ),
+                    ),
+                    ui.column(
+                        6,
+                        ui.input_slider("Fat", "Fat (g)", min=10, max=200, value=60),
+                        ui.input_slider(
+                            "Calories", "kCals", min=1000, max=4000, value=2000
+                        ),
+                    ),
+                ),
+            ),
+        ),
+    ),
 )
 
 
 # SERVER
 def server(input, output, session):
-    # None-reactive Hangman game code
-    word = random.choice(words)
-    guesses = ["m"]
-    guess = "e"
-    guesses.append(guess)
-    remaining = [l for l in list(string.ascii_lowercase) if l not in guesses]
-    result = " ".join([letter if letter in guesses else " - " for letter in list(word)])
-    ui.h1(result, style="font-family: monospace; color: #BF408B;")
 
+    # Select food to focus e.g. Almonds
+    food = data[data["Food"] == "Almonds"][
+            ["Grams", "Calories", "Protein", "Fat", "Carbs"]
+    ]
+
+    # Get in long format
+    food = pd.melt(food, var_name="name")
+
+    # Adjust based on component to match and set daily target intake e.g. 250g of carbs
+    food["value"] = (
+        food["value"]
+        / food.loc[food["name"] == "Carbs", "value"].values[0]
+        * 250 
+    )
+
+    # Get the target daily intake values
+    target = pd.DataFrame(
+        {
+            "name": ["Protein", "Fat", "Carbs"],
+            "value": [50, 60, 250],
+        }
+    )
+
+    # Create the bar plot showing consumed nutrients for chosen food
+    plot = sns.barplot(
+        x="name",
+        y="value",
+        data=food.iloc[2:5],
+        color="#ff843d",
+        label="Total Nutrients Consumed",
+    )
+
+    # Overlay barplot with target daily intake
+    sns.barplot(
+        x="name",
+        y="value",
+        data=target,
+        color="gray",
+        edgecolor="#007bc2",
+        linewidth=2,
+        facecolor="none",
+        label="Recommended intake",
+    )
+
+    # Edit titla and labels
+    plot.set_title("Nutritional values")
+    plot.set_ylabel("Grams")
+    plot.set_xlabel("Nutrient")        
 
 app = App(app_ui, server)

@@ -1,6 +1,6 @@
 # PART 3 - Exercise 2 - Solution
 # //////////////////////////////
-import os
+from pathlib import Path
 import pandas as pd
 from datetime import datetime
 

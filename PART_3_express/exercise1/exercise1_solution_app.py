@@ -1,10 +1,10 @@
 # PART 3 - Exercise 2 - Solution
 # //////////////////////////////
-import os
+from pathlib import Path
 from shiny.express import input, render, ui, app_opts, expressify
 
 # Set the www folder for static assets
-app_opts(static_assets=os.path.join(os.path.dirname(__file__), "www"))
+app_opts(static_assets=Path(__file__).parent / "www")
 
 
 # Needed for PART 2 only (not present in PART 1) ---

@@ -2,7 +2,8 @@
 # //////////////////////////////
 
 from shiny import App, ui
-import os
+from pathlib import Path
+
 
 app_ui = ui.page_fluid(
     ui.navset_tab(
@@ -26,4 +27,4 @@ def server(input, output, session):
     pass
 
 
-app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), "www"))
+app = App(app_ui, server, static_assets=Path(__file__).parent / "www")

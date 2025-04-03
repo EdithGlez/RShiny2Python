@@ -89,7 +89,7 @@ are headers, images, links, or custom divs
 
 ```python
 from shiny import ui, App
-import os
+from pathlib import Path
 
 app_ui = ui.page_fluid(
   ui.tags.img(src = "image.png", alt = "An image")
@@ -98,7 +98,7 @@ app_ui = ui.page_fluid(
 def server(input, output, session):
   return
 
-app = App(app_ui, server, static_assets=os.path.join(os.path.dirname(__file__), "www"))
+app = App(app_ui, server, static_assets=Path(__file__).parent / "www")
 ```
 
 _Note that similarly to R, you do not put the static assets folder name in the
