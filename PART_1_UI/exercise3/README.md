@@ -15,7 +15,7 @@ Create an app with two tabs
 
 ## Expected output
 
-![screenshot](exercise2_screenshot.png)
+![screenshot](exercise3_screenshot.png)
 
 ## Shinylive Link
 https://pieterjanvc.github.io/RShiny2Python/shinylive/?part1_ex3

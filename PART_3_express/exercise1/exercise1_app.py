@@ -1,18 +1,36 @@
 # PART 3 - Exercise 1
 # ///////////////////
-
 from pathlib import Path
-from shiny.express import input, render, ui, app_opts, expressify
+import pandas as pd
+from datetime import datetime
 
-# Tab 1 - YOUNG
-# Image: "young.jpg"
-# Content: "How it all began ..."
+from shiny import reactive
+from shiny.express import input, render, ui, app_opts
 
-# Tab 2 - ADULT
-# Image: "adult.jpg"
-# Content: " ... what I aspired to ..."
+data = pd.read_csv(
+    "https://data.nasa.gov/api/views/9kcy-zwvn/rows.csv?accessType=DOWNLOAD"
+)
 
-#  --- ONLY NEEDED FOR PART 2 ---
-# Tab 3 - OLD
-# Image: "old.jpg"
-# Content: "... what I have become"
+# Data cleaning
+data.columns = data.columns.str.replace(" ", "")
+data["Date"] = pd.to_datetime(data["Date"])
+data["Duration"] = pd.to_datetime(data["Duration"], format="%H:%M")
+data["Duration"] = data["Duration"].dt.hour * 60 + data["Duration"].dt.minute
+data = data.drop(["EVA#", "Country"], axis=1)
+data = data.dropna()
+
+
+# Get a simplified list of vehicle types
+vehicleTypes = list(data["Vehicle"].str.extract(r"([^\s-]+)")[0].unique())
+vehicleTypes.sort()
+
+# Minimum duration in minutes
+minDuration = 60
+
+# Filter based on vehicleType and minimum duration
+subset = data[
+    (data["Duration"] >= minDuration) & data["Vehicle"].str.contains(vehicleTypes[0])
+]
+
+# Check the subset
+subset

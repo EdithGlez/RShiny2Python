@@ -2,37 +2,45 @@
 
 ## Intro
 
-You are creating a simple biography website template people can use to highlight
-specific events in their lifetime that have shaped them.
+You are exploring a dataset recording activities done by an astronaut or
+cosmonaut outside a spacecraft beyond the Earth's appreciable atmosphere. You
+already have written some basic python code to help you filter this dataset and
+better understand the content, however, it is rather tedious to have to
+constantly update specific filtering parameters and run the analysis again. You
+decide to use Shiny Express to help you quickly build an interactive exploration
+of the data.
 
 ## Tasks
 
-### PART 1 - Simple express layout
+Starting with the provided python script, add **Shiny Express syntax** to make
+this script interactive.
 
-Use Shiny express to create this site with 2 tabs (navset_card_tab)
+### PART 1 - Start simple
 
-- Each tab represents a stage in the life of the person
-- Each tab has two columns
-  - (width 3) A card with an image of the person
-  - (width 9) A card with a paragraph of text
-- The images are located in the `www` folder and some text has been provided.
-  (_scroll down to see what to do if you are using shinylive_)
+This task should be relatively simple and result in a functional app already
 
-### PART 2 - Generating express UI with a function
+- Insert a dropdown (select) element that will allow filtering on vehicle type
+- Add a slider that will allow additional filtering of the dataset by minimum
+  duration. Set the min and max value to the min and max found in the whole
+  dataset. _(Tip, you can use the min() and max() values over a pandas dataframe
+  column)_
+- Convert the `subset` data frame into a reactive data frame (data_frame) and
+  make sure the data is filtered based on the selected vehicle type
 
-- Create a function that will generate the repeating tab layout and has the
-  following arguments:
-  - tab: The name of the tab
-  - image: Link to the image being displayed
-  - text: paragraph of text
-- Add a 3rd tab using the function
-- Replace the first 2 tabs using the function as well to avoid repetition
+### PART 2 - Dynamically update the slider
 
-_Tip: You will need the `@expressify` decorator to make your function work_
+This task requires additional reactive environments and logic
+
+- Whenever the vehicle type changes, update the duration filter to only include
+  the range for that type of vehicle instead of the values across the whole
+  dataset
+- Tip: similar to R, every `ui.input_<element>` has a corresponding
+  `ui.update_<element>` function to dynamically update the inputs
 
 ## Expected output
 
-_Note that the 3rd tab should only be there for PART 2_
+_The output shown is for part 1. In part 2, the slider should have different min
+and max values_
 
 ![screenshot](exercise1_screenshot.png)
 
@@ -41,5 +49,5 @@ https://pieterjanvc.github.io/RShiny2Python/shinylive/?part3_ex1
 
 ## References
 
-- [layouts](https://shiny.posit.co/py/layouts/)
-- [expressify](https://shiny.posit.co/py/api/express/express.expressify.html)
+- [dataset](https://catalog.data.gov/dataset/extra-vehicular-activity-eva-us-and-russia)
+- [Shiny Express](https://shiny.posit.co/py/api/express/)

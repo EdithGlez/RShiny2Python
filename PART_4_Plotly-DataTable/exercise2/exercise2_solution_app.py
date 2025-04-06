@@ -57,7 +57,6 @@ def server(input, output, session):
     point_clicked = reactive.value()
 
     def click_data(trace, points, selector):
-        print(points.point_inds[0])
         point_clicked.set(points.point_inds[0])
     
     @render_widget
