@@ -13,7 +13,6 @@ app_ui = ui.page_fluid(
     ),
     ui.card(
         ui.card_header("ToDo list"),
-        ui.output_data_frame("tbl"),
         ui.input_action_button(
             "completed", "Mark selected row as complete", width="300px"
         ),
@@ -24,11 +23,6 @@ app_ui = ui.page_fluid(
 def server(input, output, session):
     #  Start with empty data frame
     todos = reactive.value(pd.DataFrame())
-
-    # Render the todos in the table
-    @render.data_frame
-    def tbl():
-        return render.DataTable(todos(), selection_mode="row", width="100%")
 
     # Add a new todo
     @reactive.effect

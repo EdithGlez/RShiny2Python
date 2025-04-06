@@ -3,13 +3,15 @@
 ## Intro
 
 You are building a simple To-Do tracker that allows you to create new tasks and
-mark existing ones as completed. You are given an app that already allows you to
-add new tasks.
+mark existing ones as completed. You are given an app that already takes care of
+some server functionality (adding new tasks to an existing data frame)
 
 ## Tasks
 
-- When a row is selected and the `completed` button is clicked, that task
-  should get the current time as a timestamp in the last column
+- Add a data table output to the app, right above the `completed` button and
+  show the current task list as a data frame
+- When a row is selected and the `completed` button is clicked, that task should
+  get the current time as a timestamp in the last column
 - When the button is clicked without a row being selected, nothing should happen
 
 Tip: Check the section on working with
