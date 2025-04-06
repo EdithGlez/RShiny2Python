@@ -1,58 +1,44 @@
 # PART 3 - Exercise 2 - Solution
 # //////////////////////////////
-import os
-import pandas as pd
-from datetime import datetime
+from pathlib import Path
+from shiny.express import input, render, ui, app_opts, expressify
 
-from shiny import reactive
-from shiny.express import input, render, ui, app_opts
-
-data = pd.read_csv(
-    "https://data.nasa.gov/api/views/9kcy-zwvn/rows.csv?accessType=DOWNLOAD"
-)
-
-# Data cleaning
-data.columns = data.columns.str.replace(" ", "")
-data["Date"] = pd.to_datetime(data["Date"])
-data["Duration"] = pd.to_datetime(data["Duration"], format="%H:%M")
-data["Duration"] = data["Duration"].dt.hour * 60 + data["Duration"].dt.minute
-data = data.drop(["EVA#", "Country"], axis=1)
-data = data.dropna()
-
-# Get a simplified list of vehicle types
-vehicleTypes = list(data["Vehicle"].str.extract(r"([^\s-]+)")[0].unique())
-vehicleTypes.sort()
-
-# Dropdown for vehicle type
-ui.input_select("vehicleType", "Vehicle Type", choices=vehicleTypes)
-
-# Slider for minimum duration
-ui.input_slider(
-    "duration",
-    "Minimum duration (min)",
-    min=min(data["Duration"]),
-    max=max(data["Duration"]),
-    value=min(data["Duration"]),
-)
+# Set the www folder for static assets
+app_opts(static_assets=Path(__file__).parent / "www")
 
 
-# Slider update on vehicle type change
-@reactive.effect
-@reactive.event(input.vehicleType)
-def _():
-    df = data
-    ui.update_slider(
-        "duration",
-        min=min(df["Duration"]),
-        max=max(df["Duration"]),
-        value=min(df["Duration"]),
-    )
+# Needed for PART 2 only (not present in PART 1) ---
+@expressify
+def myTab(tab, image, text):
+    with ui.nav_panel(tab):
+        with ui.layout_columns(col_widths=[3, 9]):
+            with ui.card():
+                ui.img(src=image)
+            with ui.card():
+                ui.p(text)
 
 
-# Filtered table
-@render.data_frame
-def table():
-    return data[
-        (data["Duration"] >= input.duration())
-        & data["Vehicle"].str.contains(str(input.vehicleType()))
-    ]
+# ----
+
+with ui.navset_card_tab(id="tab"):
+    # Solution for PART 1 ---
+    # Tab 1
+    with ui.nav_panel("YOUNG"):
+        with ui.layout_columns(col_widths=[3, 9]):
+            with ui.card():
+                ui.img(src="young.jpg")
+            with ui.card():
+                ui.p("How it all began ...")
+    # Tab 2
+    with ui.nav_panel("ADULT"):
+        with ui.layout_columns(col_widths=[3, 9]):
+            with ui.card():
+                ui.img(src="adult.jpg")
+            with ui.card():
+                ui.p("How it all began ...")
+    # ---
+
+    # PART 2 ...
+    # Tab 3
+    myTab("OLD", "old.jpg", "... what I have become")
+    # ---

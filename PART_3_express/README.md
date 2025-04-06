@@ -35,7 +35,7 @@ from shiny.express import input, render, ui, app_opts
 - If you want to set app options like static assets, you can use `app_opts`
 
 ```python
-app_opts(static_assets=os.path.dirname(__file__), "myFolder"))
+app_opts(static_assets=Path(__file__).parent / "myFolder")
 ```
 ### Layout + inputs
 
@@ -106,6 +106,6 @@ instance starts.
 
 ## References
 
-[Core vs Express](https://shiny.posit.co/py/docs/express-vs-core.html)
-[Layouts](https://shiny.posit.co/py/layouts/)
-[Express full documentation](https://shiny.posit.co/py/api/express/)
+- [Core vs Express](https://shiny.posit.co/py/docs/express-vs-core.html)
+- [Layouts](https://shiny.posit.co/py/layouts/)
+- [Express full documentation](https://shiny.posit.co/py/api/express/)

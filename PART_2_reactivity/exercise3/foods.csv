@@ -1,0 +1,85 @@
+Food,Grams,Calories,Protein,Fat,Sat.Fat,Fiber,Carbs,Category
+Cows' milk,976,660,32,40,36,0,48,Dairy products
+Buttermilk,246,127,9,5,4,0,13,Dairy products
+Fortified milk,1419,1373,89,42,23,1.4,119,Dairy products
+Powdered milk,103,515,27,28,24,0,39,Dairy products
+Goats' milk,244,165,8,10,8,0,11,Dairy products
+Cocoa,252,235,8,11,10,0,26,Dairy products
+Custard,248,285,13,14,11,0,28,Dairy products
+Ice cream,188,300,6,18,16,0,29,Dairy products
+Ice milk,190,275,9,10,9,0,32,Dairy products
+Cream or half-and-half,120,170,4,15,13,0,5,Dairy products
+Cheese,225,240,30,11,10,0,6,Dairy products
+Cream cheese,28,105,2,11,10,0,1,Dairy products
+Eggs Scrambled or fried,128,220,13,16,14,0,1,Dairy products
+Butter,112,113,114,115,116,117,118,"Fats, Oils, Shortenings"
+Butter,112,113,114,115,116,117,118,"Fats, Oils, Shortenings"
+Bacon,16,95,4,8,7,0,1,"Meat, Poultry"
+Clams,85,87,12,1,0,0,2,"Fish, Seafood"
+Crab meat,85,90,14,2,0,0,1,"Fish, Seafood"
+Fish sticks fried,112,200,19,10,5,0,8,"Fish, Seafood"
+Haddock,85,135,16,5,4,0,6,"Fish, Seafood"
+Oysters,230,231,232,233,234,235,236,"Fish, Seafood"
+Scallops,100,104,18,8,0,0,10,"Fish, Seafood"
+Red kidney,260,230,15,1,0,2.5,42,Vegetables A-E
+Dandelion greens,180,80,5,1,0,3.2,16,Vegetables A-E
+Kale,110,45,4,1,0,0.9,8,Vegetables F-P
+Parsnips,155,95,2,1,0,3,22,Vegetables F-P
+Peppers with beef and crumbs,150,255,19,9,8,1,24,Vegetables R-Z
+Potatoes Mashed with milk and butter,200,230,4,12,11,0.7,28,Vegetables R-Z
+Soybeans,200,260,22,11,0,3.2,20,Vegetables R-Z
+Sweet potatoes,110,155,2,1,0,1,36,Vegetables R-Z
+Turnip greens,145,45,4,1,0,1.8,8,Vegetables R-Z
+Avocado,108,185,2,18,12,1.8,6,Fruits A-F
+Blackberries,144,85,2,1,0,6.6,19,Fruits A-F
+Cherries,257,100,2,1,0,2,26,Fruits A-F
+Olives large,65,72,1,10,9,0.8,3,Fruits G-P
+OlivesRipe,65,105,1,13,12,1,1,Fruits G-P
+Prunes,270,300,3,1,0,0.8,81,Fruits G-P
+Watermelon,925,120,2,1,0,3.6,29,Fruits R-Z
+Rye,23,55,2,1,1,0.1,12,"Breads, cereals, fastfood,grains"
+Whole-wheat,454,1100,48,14,10,67.5,216,"Breads, cereals, fastfood,grains"
+Whole-wheat,23,55,2,1,0,0.31,11,"Breads, cereals, fastfood,grains"
+Corn bread ground meal,50,100,3,4,2,0.3,15,"Breads, cereals, fastfood,grains"
+Corn meal,118,360,9,4,2,1.6,74,"Breads, cereals, fastfood,grains"
+Flour,110,460,39,22,0,2.9,33,"Breads, cereals, fastfood,grains"
+Wheat (all purpose),110,400,12,1,0,0.3,84,"Breads, cereals, fastfood,grains"
+Wheat (whole),120,390,13,2,0,2.8,79,"Breads, cereals, fastfood,grains"
+Macaroni,140,155,5,1,0,0.1,32,"Breads, cereals, fastfood,grains"
+Noodles,160,200,7,2,2,0.1,37,"Breads, cereals, fastfood,grains"
+Oatmeal,236,150,5,3,2,4.6,26,"Breads, cereals, fastfood,grains"
+Popcorn salted,28,152,3,7,2,0.5,20,"Breads, cereals, fastfood,grains"
+Rice,208,748,15,3,0,1.2,154,"Breads, cereals, fastfood,grains"
+Rolls,50,411,3,12,11,0.1,23,"Breads, cereals, fastfood,grains"
+Spaghetti with meat sauce,250,285,13,10,6,0.5,35,"Breads, cereals, fastfood,grains"
+Shredded wheat biscuit,28,100,3,1,0,0.7,23,"Breads, cereals, fastfood,grains"
+Waffles,75,240,8,9,1,0.1,30,"Breads, cereals, fastfood,grains"
+Wheat germ,68,245,17,7,3,2.5,34,"Breads, cereals, fastfood,grains"
+Bean soup,250,190,8,5,4,0.6,30,Soups
+Beef soup,250,100,6,4,4,0.5,11,Soups
+Chicken soup,250,75,4,2,2,0,10,Soups
+Clam chowder,255,85,5,2,8,0.5,12,Soups
+Cream soups,255,200,7,12,11,1.2,18,Soups
+Split-pea soup,250,147,8,3,3,0.5,25,Soups
+Tomato soup,245,175,6,7,6,0.5,22,Soups
+Bread pudding,200,374,11,12,11,0.2,56,"Desserts, sweets"
+Chocolate fudge,120,420,5,14,12,0.3,70,"Desserts, sweets"
+Fruit cake,30,105,2,4,3,0.2,17,"Desserts, sweets"
+Sponge cake,40,115,3,2,2,0,22,"Desserts, sweets"
+Milk chocolate,56,290,2,6,6,0.2,44,"Desserts, sweets"
+Cherry Pie,135,340,3,13,11,0.1,55,"Desserts, sweets"
+Custard,130,265,7,11,10,0,34,"Desserts, sweets"
+Lemon meringue,120,300,4,12,10,0.1,45,"Desserts, sweets"
+Mince,135,340,3,9,8,0.7,62,"Desserts, sweets"
+Pumpkin Pie,130,265,5,12,11,8,34,"Desserts, sweets"
+Tapioca cream pudding,250,335,10,10,9,0,42,"Desserts, sweets"
+Almonds,70,425,13,38,28,1.8,13,Seeds and Nuts
+Brazil nuts,70,457,10,47,31,2,7,Seeds and Nuts
+Cashews,70,392,12,32,28,0.9,20,Seeds and Nuts
+coconut sweetened,50,274,1,20,19,2,26,Seeds and Nuts
+Peanut butter,50,300,12,25,17,0.9,9,Seeds and Nuts
+Peanuts,50,290,13,25,16,1.2,9,Seeds and Nuts
+Pecans,52,343,5,35,25,1.1,7,Seeds and Nuts
+Sesame seeds,50,280,9,24,13,3.1,10,Seeds and Nuts
+Sunflower seeds,50,280,12,26,7,1.9,10,Seeds and Nuts
+Walnuts,50,325,7,32,7,1,8,Seeds and Nuts

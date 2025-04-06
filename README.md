@@ -1,6 +1,6 @@
 # Transferring your R Shiny skills to Python
 
-_PJ Van Camp_
+_PJ Van Camp - [LinkedIn](https://www.linkedin.com/in/pjvancamp/)_
 
 ## Intro and Objectives
 
@@ -24,15 +24,41 @@ This workshops has the following objectives:
 
 ## Repository Organisation
 
-- [Setup Instructions](SETUP/README.MD) for your local or online development
-  environment are outlined in this document.
-- The workshop is divided in **multiple parts, each with it's own dedicated
-  folder** in this repo
-  - A README file will provide background information and boilerplate code
-  - One or more Exercise folders will contain all code, data and instructions
-    needed to complete an exercise
-- You can ignore the `docs` folder as this contains files to organise the repo
-  and workshop but are not needed in any of the exercises
+### Setup
+
+[Setup Instructions](SETUP/README.MD) for your local or online development
+environment are outlined in this README file.
+
+### Topics
+
+- PART 1 - [Creating Shiny UI](PART_1_UI/)
+- PART 2 - [Python Shiny reactivity syntax](PART_2_reactivity/)
+- PART 3 - [Shiny Express](PART_3_express/)
+- PART 4 - [Interactive tables and plots](PART_4_Plotly-DataTable/)
+
+Each part comes with a dedicated folder in this repository (see above):
+
+- A README file will provide background information and boilerplate code
+- One or more exercise folders will contain all code, data and instructions
+  (again as a README) needed to complete the exercise
+- Solutions to all exercises are available in the solutions folder. Try not to
+  look at them when you get stuck, but rather look though the documentation
+
+## Workshop Format
+
+The workshop is broken down into 4 parts
+
+For each part there will be
+
+- 10-15 minutes introduction with a **tutorial**
+- 20 minutes **hands-on exercises**
+  - Instructions for each exercise are in a dedicated README
+  - You can mute the sound as there will be a timer on the screen indication
+    when the next part starts
+  - The main room will be used to answer questions or help with debugging
+  - Solutions to all exercises are available in the solutions folder, but try to
+    solve the problem without looking at them
+- 5 minutes **wrap-up** before moving on to the next part
 
 ## About this Repository
 
