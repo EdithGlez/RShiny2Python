@@ -11,7 +11,8 @@
             "workshop",
             "intermediate",
             "Best Practices"
-        ]
+        ],
+        "colour": "#8eb9ff"
     },
     "session_1": {
         "track": "Track 2",
@@ -26,7 +27,8 @@
             "intermediate",
             "Best Practices",
             "Technical Deep Dives"
-        ]
+        ],
+        "colour": "#8eb9ff"
     },
     "session_2": {
         "track": "Track 2",
@@ -42,7 +44,8 @@
             "intermediate",
             "Best Practices",
             "UI/UX"
-        ]
+        ],
+        "colour": "#8eb9ff"
     },
     "session_3": {
         "track": "Track 1",
@@ -57,7 +60,8 @@
             "intermediate",
             "advanced",
             "Shiny for Python"
-        ]
+        ],
+        "colour": "#8eb9ff"
     },
     "session_4": {
         "track": "Track 2",
@@ -70,7 +74,8 @@
         "tags": [
             "workshop",
             "Best Practices"
-        ]
+        ],
+        "colour": "#8eb9ff"
     },
     "session_5": {
         "track": "Track 1",
@@ -78,7 +83,8 @@
         "end_time": "2025-04-10T12:10:00",
         "title": "Opening remarks",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_6": {
         "track": "Track 1",
@@ -92,7 +98,8 @@
             "20 min talk",
             "intermediate",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_7": {
         "track": "Track 2",
@@ -106,7 +113,8 @@
             "20 min talk",
             "intermediate",
             "Best Practices"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_8": {
         "track": "Track 1",
@@ -122,7 +130,8 @@
             "advanced",
             "Technical Deep Dives",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_9": {
         "track": "Track 2",
@@ -136,7 +145,8 @@
             "20 min talk",
             "intermediate",
             "Best Practices"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_10": {
         "track": "Track 1",
@@ -144,7 +154,8 @@
         "end_time": "2025-04-10T13:00:00",
         "title": "Quick break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_11": {
         "track": "Track 1",
@@ -158,7 +169,8 @@
             "tutorial (60 min)",
             "LLM/AI and Shiny",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#e5a657"
     },
     "session_12": {
         "track": "Track 1",
@@ -173,7 +185,8 @@
             "intermediate",
             "advanced",
             "LLM/AI and Shiny"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_13": {
         "track": "Track 2",
@@ -188,7 +201,8 @@
             "20 min talk",
             "intermediate",
             "UI/UX"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_14": {
         "track": "Track 1",
@@ -202,7 +216,8 @@
             "20 min talk",
             "advanced",
             "LLM/AI and Shiny"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_15": {
         "track": "Track 2",
@@ -216,7 +231,8 @@
             "20 min talk",
             "beginner",
             "Best Practices"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_16": {
         "track": "Track 1",
@@ -224,7 +240,8 @@
         "end_time": "2025-04-10T15:00:00",
         "title": "Coffee break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_17": {
         "track": "Track 1",
@@ -238,7 +255,8 @@
             "20 min talk",
             "intermediate",
             "LLM/AI and Shiny"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_18": {
         "track": "Track 2",
@@ -252,7 +270,8 @@
             "20 min talk",
             "beginner",
             "Best Practices"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_19": {
         "track": "Track 1",
@@ -266,7 +285,8 @@
             "shiny app showcase (5 min)",
             "intermediate",
             "LLM/AI and Shiny"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_20": {
         "track": "Track 2",
@@ -282,7 +302,8 @@
             "intermediate",
             "beginner",
             "Shiny for Good"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_21": {
         "track": "Track 1",
@@ -297,7 +318,8 @@
             "intermediate",
             "LLM/AI and Shiny",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_22": {
         "track": "Track 2",
@@ -312,7 +334,8 @@
             "intermediate",
             "Best Practices",
             "UI/UX"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_23": {
         "track": "Track 1",
@@ -327,7 +350,8 @@
             "beginner",
             "LLM/AI and Shiny",
             "Shiny for Fun"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_24": {
         "track": "Track 1",
@@ -345,7 +369,8 @@
             "Shiny for Good",
             "Real World Use Cases",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_25": {
         "track": "Track 2",
@@ -359,7 +384,8 @@
             "20 min talk",
             "advanced",
             "UI/UX"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_26": {
         "track": "Track 1",
@@ -367,7 +393,8 @@
         "end_time": "2025-04-10T17:00:00",
         "title": "Networking / Longer Break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_27": {
         "track": "Track 1",
@@ -383,7 +410,8 @@
             "Technical Deep Dives",
             "UI/UX",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_28": {
         "track": "Track 2",
@@ -398,7 +426,8 @@
             "shiny app showcase (5 min)",
             "advanced",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_29": {
         "track": "Track 2",
@@ -413,7 +442,8 @@
             "intermediate",
             "beginner",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_30": {
         "track": "Track 1",
@@ -428,7 +458,8 @@
             "beginner",
             "Enterprise Deployment",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_31": {
         "track": "Track 2",
@@ -443,7 +474,8 @@
             "beginner",
             "UI/UX",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_32": {
         "track": "Track 1",
@@ -458,7 +490,8 @@
             "intermediate",
             "advanced",
             "beginner"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_33": {
         "track": "Track 1",
@@ -474,7 +507,8 @@
             "intermediate",
             "LLM/AI and Shiny",
             "Shiny for Python"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_34": {
         "track": "Track 2",
@@ -489,7 +523,8 @@
             "advanced",
             "UI/UX",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_35": {
         "track": "Track 1",
@@ -497,7 +532,8 @@
         "end_time": "2025-04-10T18:30:00",
         "title": "Coffee break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_36": {
         "track": "Track 1",
@@ -511,7 +547,8 @@
             "keynote",
             "LLM/AI and Shiny",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#b53324"
     },
     "session_37": {
         "track": "Track 1",
@@ -519,7 +556,8 @@
         "end_time": "2025-04-10T19:30:00",
         "title": "Summary of the day",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_38": {
         "track": "Track 1",
@@ -535,7 +573,8 @@
             "intermediate",
             "advanced",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_39": {
         "track": "Track 2",
@@ -551,7 +590,8 @@
             "intermediate",
             "Enterprise Deployment",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_40": {
         "track": "Track 1",
@@ -570,7 +610,8 @@
             "beginner",
             "Enterprise Deployment",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_41": {
         "track": "Track 2",
@@ -584,7 +625,8 @@
             "20 min talk",
             "advanced",
             "Enterprise Deployment"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_42": {
         "track": "Track 1",
@@ -599,7 +641,8 @@
             "shiny app showcase (5 min)",
             "intermediate",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_43": {
         "track": "Track 2",
@@ -614,7 +657,8 @@
             "beginner",
             "Technical Deep Dives",
             "UI/UX"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_44": {
         "track": "Track 1",
@@ -627,7 +671,8 @@
         "tags": [
             "shiny app showcase (5 min)",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_45": {
         "track": "Track 2",
@@ -641,7 +686,8 @@
             "20 min talk",
             "Best Practices",
             "Technical Deep Dives"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_46": {
         "track": "Track 1",
@@ -655,7 +701,8 @@
             "shiny app showcase (5 min)",
             "beginner",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_47": {
         "track": "Track 1",
@@ -672,7 +719,8 @@
             "intermediate",
             "Enterprise Deployment",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_48": {
         "track": "Track 2",
@@ -686,7 +734,8 @@
             "20 min talk",
             "advanced",
             "Enterprise Deployment"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_49": {
         "track": "Track 1",
@@ -701,7 +750,8 @@
             "shiny app showcase (5 min)",
             "beginner",
             "Shiny for Good"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_50": {
         "track": "Track 2",
@@ -716,7 +766,8 @@
             "intermediate",
             "Best Practices",
             "Enterprise Deployment"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_51": {
         "track": "Track 1",
@@ -732,7 +783,8 @@
             "beginner",
             "Shiny for Good",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_52": {
         "track": "Track 1",
@@ -750,7 +802,8 @@
             "advanced",
             "Life Sciences/Pharma",
             "Open Source"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_53": {
         "track": "Track 2",
@@ -765,7 +818,8 @@
             "intermediate",
             "Best Practices",
             "Technical Deep Dives"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_54": {
         "track": "Track 1",
@@ -780,7 +834,8 @@
             "beginner",
             "Real World Use Cases",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_55": {
         "track": "Track 2",
@@ -794,7 +849,8 @@
             "shiny app showcase (5 min)",
             "intermediate",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_56": {
         "track": "Track 1",
@@ -808,7 +864,8 @@
             "shiny app showcase (5 min)",
             "beginner",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_57": {
         "track": "Track 2",
@@ -822,7 +879,8 @@
             "shiny app showcase (5 min)",
             "beginner",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_58": {
         "track": "Track 1",
@@ -830,7 +888,8 @@
         "end_time": "2025-04-11T15:00:00",
         "title": "Coffee break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_59": {
         "track": "Track 1",
@@ -842,7 +901,8 @@
         ],
         "tags": [
             "keynote"
-        ]
+        ],
+        "colour": "#b53324"
     },
     "session_60": {
         "track": "Track 1",
@@ -858,7 +918,8 @@
             "advanced",
             "Technical Deep Dives",
             "Enterprise Deployment"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_61": {
         "track": "Track 2",
@@ -873,7 +934,8 @@
             "intermediate",
             "beginner",
             "Open Source"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_62": {
         "track": "Track 1",
@@ -887,7 +949,8 @@
             "20 min talk",
             "intermediate",
             "Technical Deep Dives"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_63": {
         "track": "Track 2",
@@ -902,7 +965,8 @@
             "intermediate",
             "Best Practices",
             "Enterprise Deployment"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_64": {
         "track": "Track 1",
@@ -910,7 +974,8 @@
         "end_time": "2025-04-11T17:00:00",
         "title": "Networking / Longer Break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_65": {
         "track": "Track 1",
@@ -924,7 +989,8 @@
             "shiny app showcase (5 min)",
             "beginner",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_66": {
         "track": "Track 2",
@@ -939,7 +1005,8 @@
             "advanced",
             "Shiny for Good",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_67": {
         "track": "Track 1",
@@ -953,7 +1020,8 @@
             "shiny app showcase (5 min)",
             "intermediate",
             "Life Sciences/Pharma"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_68": {
         "track": "Track 2",
@@ -969,7 +1037,8 @@
             "beginner",
             "Shiny for Good",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_69": {
         "track": "Track 1",
@@ -982,7 +1051,8 @@
         ],
         "tags": [
             "20 min talk"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_70": {
         "track": "Track 1",
@@ -997,7 +1067,8 @@
             "advanced",
             "Technical Deep Dives",
             "Shiny Innovation"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_71": {
         "track": "Track 2",
@@ -1013,7 +1084,8 @@
             "advanced",
             "Best Practices",
             "Real World Use Cases"
-        ]
+        ],
+        "colour": "#61b9b0"
     },
     "session_72": {
         "track": "Track 1",
@@ -1028,7 +1100,8 @@
             "intermediate",
             "advanced",
             "Shiny for Good"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_73": {
         "track": "Track 2",
@@ -1044,7 +1117,8 @@
             "advanced",
             "beginner",
             "Shiny for Fun"
-        ]
+        ],
+        "colour": "#c2858c"
     },
     "session_74": {
         "track": "Track 1",
@@ -1052,7 +1126,8 @@
         "end_time": "2025-04-11T18:20:00",
         "title": "Coffee break",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_75": {
         "track": "Track 1",
@@ -1060,7 +1135,8 @@
         "end_time": "2025-04-11T19:20:00",
         "title": "Tiny Shiny Hackathon Winners Announcement & Panel Discussion",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     },
     "session_76": {
         "track": "Track 1",
@@ -1068,6 +1144,7 @@
         "end_time": "2025-04-11T19:35:00",
         "title": "Conference closing remarks",
         "speakers": [],
-        "tags": []
+        "tags": [],
+        "colour": "#e97b79"
     }
 }
