@@ -2,9 +2,10 @@
 
 ## Intro
 
-This app allows you to explore famous movies throughout cinematic history that
-feature cats. The data is provided and UI has already been created. You should
-be able to complete this exercise by just using render functions.
+This app explores famous movies throughout cinematic history that feature cats.
+The data is provided and UI has already been created.
+
+_You should be able to complete this exercise by just using render functions_
 
 ## Tasks
 
@@ -25,6 +26,7 @@ pandas data frames for this app as this is not the focus of this workshop_
 ![screenshot](exercise1_screenshot.png)
 
 ## Shinylive Link
+
 https://pieterjanvc.github.io/RShiny2Python/shinylive/?part2_ex1
 
 ## References
