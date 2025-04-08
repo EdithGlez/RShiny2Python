@@ -21,10 +21,10 @@ website
 
 ### Access
 
-You can access Shinylive via https://shinylive.io/py/editor/
+You can access Shinylive for Python via https://shinylive.io/py/editor/
 
 Note that for this workshop, **we will provide you with dedicated links for each
-exercise** that already have start code and relevant files setup. These links
+exercise** that already has start code and relevant files uploaded. These links
 can be found in each exercise's README. You can at any point also copy-paste
 code from this repo into the editor if needed or even upload files
 
