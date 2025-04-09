@@ -3,7 +3,7 @@
 As this workshop is about Shiny for Python, you need to have a python
 environment set up so you can start creating your own apps.
 
-- **Online with Shinylive**: This is recommended if you like to get stated
+- **Online with Shinylive**: This is recommended if you like to get started
   quickly and do not have a local Python Shiny development environment setup
 - **Local**: This setup is recommended if you have experience setting up new
   workspaces quicky and installing the various requirements, it will also
