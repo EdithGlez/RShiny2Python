@@ -7,9 +7,7 @@ from datetime import datetime
 from shiny import reactive
 from shiny.express import input, render, ui, app_opts
 
-data = pd.read_csv(
-    "https://data.nasa.gov/api/views/9kcy-zwvn/rows.csv?accessType=DOWNLOAD"
-)
+data = pd.read_csv(Path(__file__).parent / "extra-vehicular_activity.csv")
 
 # Data cleaning
 data.columns = data.columns.str.replace(" ", "")
