@@ -2,10 +2,10 @@
 
 ## Intro
 
-Let's use Shiny to create an interactive agenda for this year's conference. By
-displaying the agenda visually, users should be able to quickly see all the
-different events ordered by track. By hovering over an event some, basic
-information is shown, but clicking it will show all session details in a
+Let's use Shiny to create a simple, interactive agenda for this year's Shiny
+conference. By displaying the agenda visually, users should be able to quickly
+see all the different events ordered by track. By hovering over an event some,
+basic information is shown, but clicking it will show all session details in a
 separate output.
 
 You have been given the UI and some basic code that will get the data into the
@@ -15,7 +15,7 @@ a function to generate the metadata for each event as formatted HTML.
 ## Tasks
 
 - Add the plotly plot server function (i.e. _plt_)
-- Add the metadata server function (i.e. _details_)
+- Add the session details / metadata server function (i.e. _details_)
 - Add an _on click_ event listener that will capture which session has been
   clicked by the user and use that information to generate the session details
   to be displayed below the plot
@@ -36,4 +36,4 @@ https://pieterjanvc.github.io/RShiny2Python/shinylive/?part4_ex2
 ## References
 
 - [Plotly in Shiny](https://shiny.posit.co/py/components/outputs/plot-plotly/)
-- [Plotly Gantt Charts in Pyton](https://plotly.com/python/gantt/)
+- [Plotly Gantt Charts in Python](https://plotly.com/python/gantt/)

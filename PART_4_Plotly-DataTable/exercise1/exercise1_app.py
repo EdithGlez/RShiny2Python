@@ -14,7 +14,7 @@ app_ui = ui.page_fluid(
     ui.card(
         ui.card_header("ToDo list"),
         ui.input_action_button(
-            "completed", "Mark selected row as complete", width="300px"
+            "completed", "Mark selected task as complete", width="300px"
         ),
     ),
 )

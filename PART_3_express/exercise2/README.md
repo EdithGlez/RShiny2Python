@@ -15,8 +15,7 @@ Use Shiny express to create this site with 2 tabs (navset_card_tab)
 - Each tab has two columns
   - (width 3) A card with an image of the person
   - (width 9) A card with a paragraph of text
-- The images are located in the `www` folder and some text has been provided.
-  (_scroll down to see what to do if you are using shinylive_)
+- The images are located in the `www` folder and some text has been provided
 
 ### PART 2 - Generating express UI with a function
 

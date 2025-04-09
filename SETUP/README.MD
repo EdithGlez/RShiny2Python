@@ -3,7 +3,7 @@
 As this workshop is about Shiny for Python, you need to have a python
 environment set up so you can start creating your own apps.
 
-- **Online with Shinylive**: This is recommended if you like to get stated
+- **Online with Shinylive**: This is recommended if you like to get started
   quickly and do not have a local Python Shiny development environment setup
 - **Local**: This setup is recommended if you have experience setting up new
   workspaces quicky and installing the various requirements, it will also
@@ -21,10 +21,10 @@ website
 
 ### Access
 
-You can access Shinylive via https://shinylive.io/py/editor/
+You can access Shinylive for Python via https://shinylive.io/py/editor/
 
 Note that for this workshop, **we will provide you with dedicated links for each
-exercise** that already have start code and relevant files setup. These links
+exercise** that already has start code and relevant files uploaded. These links
 can be found in each exercise's README. You can at any point also copy-paste
 code from this repo into the editor if needed or even upload files
 

@@ -4,7 +4,7 @@
 from shiny import App, ui
 from pathlib import Path
 
-
+#UI
 app_ui = ui.page_fluid(
     ui.navset_tab(
         ui.nav_panel(

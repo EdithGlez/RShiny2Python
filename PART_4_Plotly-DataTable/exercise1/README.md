@@ -11,11 +11,9 @@ some server functionality (adding new tasks to an existing data frame)
 - Add a data table output to the app, right above the `completed` button and
   show the current task list as a data frame
 - When a row is selected and the `completed` button is clicked, that task should
-  get the current time as a timestamp in the last column
+  get the current time as a timestamp in the last column. Only one row can be
+  selected at once
 - When the button is clicked without a row being selected, nothing should happen
-
-Tip: Check the section on working with
-[reactive values](../../PART_2_reactivity/README.md) again if needed
 
 ## Expected output
 

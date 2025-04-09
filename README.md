@@ -26,8 +26,12 @@ This workshops has the following objectives:
 
 ### Setup
 
-[Setup Instructions](SETUP/README.MD) for your local or online development
-environment are outlined in this README file.
+**Quick start**: Use the shinylive links provided in the README for each
+exercise as this requires no setup.
+
+If you want to learn more about shinylive or use a local development environment
+to do the exercises in your IDE of preference, please read this
+[setup Instructions README](SETUP/README.MD).
 
 ### Topics
 
@@ -38,11 +42,12 @@ environment are outlined in this README file.
 
 Each part comes with a dedicated folder in this repository (see above):
 
-- A README file will provide background information and boilerplate code
+- A README file will provide background documentation and code examples
 - One or more exercise folders will contain all code, data and instructions
   (again as a README) needed to complete the exercise
-- Solutions to all exercises are available in the solutions folder. Try not to
-  look at them when you get stuck, but rather look though the documentation
+- Solutions to all exercises are available in the [solutions](solutions/)
+  folder. Try not to look at them when you get stuck, but look though the
+  documentation instead as this will increase your learning
 
 ## Workshop Format
 
